@@ -1,0 +1,997 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A treatise of the loftiness or elegancy of speech written originally in Greek by Longin, and now translated out of French by Mr. J.P.</title>
+            <title>Ars rhetorica. English. 1680</title>
+            <author>Longinus, Cassius, ca. 213-273.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1680</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 139 KB of XML-encoded text transcribed from 94 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A49144</idno>
+            <idno type="STC">Wing L3001</idno>
+            <idno type="STC">ESTC R31704</idno>
+            <idno type="EEBO-CITATION">12246394</idno>
+            <idno type="OCLC">ocm 12246394</idno>
+            <idno type="VID">56950</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A49144)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 56950)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1507:21)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A treatise of the loftiness or elegancy of speech written originally in Greek by Longin, and now translated out of French by Mr. J.P.</title>
+                  <title>Ars rhetorica. English. 1680</title>
+                  <author>Longinus, Cassius, ca. 213-273.</author>
+                  <author>J. P.</author>
+               </titleStmt>
+               <extent>[20], 167 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by N.T. for John Holford ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1680.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the Harvard University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Greek language --  Rhetoric.</term>
+               <term>Rhetoric, Ancient.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-06</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-07</date>
+            <label>John Pas</label>Sampled and proofread</change>
+         <change>
+            <date>2009-07</date>
+            <label>John Pas</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:56950:1"/>
+            <pb facs="tcp:56950:1"/>
+            <p>A TREATISE OF THE LOFTINESS OR ELEGANCY OF SPEECH.</p>
+            <p>Written Originally in <hi>Greek</hi> by <hi>LONGIN;</hi> And now Tranſlated out of <hi>French</hi> by Mr. <hi>J. P.</hi>
+            </p>
+            <q>
+               <p>Praeclarum mihi quiddam videtur adeptus is qui qua re homines be<g ref="char:EOLhyphen"/>ſtiis praeſtent ea in re hominibus ipſis antecellat.</p>
+               <bibl>
+                  <hi>Cic. de Juven, Rhet.</hi>
+               </bibl>
+            </q>
+            <p>
+               <hi>London,</hi> Printed by <hi>N. T.</hi> for <hi>John Holford,</hi> Bookſeller in the <hi>Pall-Mall,</hi> over againſt St. <hi>Albans-ſtreet.</hi> 1680.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:56950:2" rendition="simple:additions"/>
+            <pb facs="tcp:56950:2" rendition="simple:additions"/>
+            <head>To <hi>William Pulteney</hi> 
+               <abbr>Eſq</abbr>
+            </head>
+            <p>A Dedication, accor<g ref="char:EOLhyphen"/>cording to the mode, is nothing but a meer Panegyrick; you muſt not therefore look for a modiſh one from me; for, beſides that 'twere a needleſs, if not al<g ref="char:EOLhyphen"/>moſt impoſſible thing to re<g ref="char:EOLhyphen"/>count
+<pb facs="tcp:56950:3"/>
+all thoſe Excellencie which Fame has already reported, and which ye<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> remain to be ſaid of you<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 'tis not conſiſtent with that modeſty wherewith we ought to ſpeak of any Re<g ref="char:EOLunhyphen"/>lation, leſt while we are tranſported with his Com<g ref="char:EOLhyphen"/>mendations, we ſeem im<g ref="char:EOLhyphen"/>plicitly to arrogate ſome to our ſelves. All that I can or do propoſe to my ſelf in this Epiſtle, is to re<g ref="char:EOLhyphen"/>commend to your prote<g ref="char:EOLhyphen"/>ction the following Trea<g ref="char:EOLhyphen"/>tiſe, which is a Tranſlati<g ref="char:EOLhyphen"/>on
+<pb facs="tcp:56950:3"/>
+out of <hi>French</hi> into <hi>Eng<g ref="char:EOLhyphen"/>liſh,</hi> two Languages (if the latter may be proper<g ref="char:EOLhyphen"/>ly ſo call'd) wherein you have atain'd ſo great per<g ref="char:EOLhyphen"/>fection, by being Educated for ſome time at the <hi>French</hi> Court, and now ſince at this in <hi>England,</hi> (which are the two Foun<g ref="char:EOLhyphen"/>tains from whence the Pu<g ref="char:EOLhyphen"/>rity of either Language does naturally flow) that (laying aſide all other Ob<g ref="char:EOLhyphen"/>ligations and Motives, which might induce me to offer this Piece to you)
+<pb facs="tcp:56950:4"/>
+I do not know any one Perſon, under whoſe wing I could better ſha<g ref="char:EOLhyphen"/>dow it than yours, whoſe very Name, if ſtamp'd up<g ref="char:EOLhyphen"/>on the baſeſt Metall, is ſufficient to make it paſs for current Coin. <hi>I</hi> ſhall ſay nothing of that Lofti<g ref="char:EOLhyphen"/>neſs of Fancy, Solidneſs o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Judgment, Elegancy o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Speech, or thoſe other Fa<g ref="char:EOLhyphen"/>culties of the Mind, which are the Subject Matter of this Treatiſe, and which <hi>I</hi> have always obſerv'd in you, but leave it to an im<g ref="char:EOLhyphen"/>partial
+<pb facs="tcp:56950:4"/>
+Judge, and one who is not byaſs'd with that ſtrong and natural Affection, which obliges me to ſubſcribe my ſelf,</p>
+            <closer>
+               <signed>
+                  <hi>Your,</hi> &amp;c. J. P.</signed>
+            </closer>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:56950:5"/>
+            <pb facs="tcp:56950:5"/>
+            <head>THE PREFACE.</head>
+            <p>
+               <hi>A</hi> Preface, with thoſe who by Tranſlation, or any other means, do expoſe an Author to publick view, ought to be like that uſual Ceremony, which, when we are to introduce any one into a strange company, obliges us to give ſome account of the Party introduc'd: Wherefore I thought it convenient to ſay ſomething in this place concerning the Author and Original of this following Treatiſe; but ſeeing the <hi>French</hi> Tranſlator (whom I
+<pb facs="tcp:56950:6"/>
+have all along copied) has al<g ref="char:EOLhyphen"/>ready done it ſo incomparably well, I need onely make uſe of his words, thus rendred into <hi>Eng<g ref="char:EOLhyphen"/>liſh.</hi>
+            </p>
+            <p>This ſmall Treatiſe (the Tran<g ref="char:EOLhyphen"/>ſlation whereof I have here pub<g ref="char:EOLhyphen"/>liſhed) is a Relick of thoſe moſt excellent Books which the fa<g ref="char:EOLhyphen"/>mous <hi>Longin</hi> has compos'd: yet alas! though but ſmall, 'tis not come to our hands very compleat, but is deficient in ma<g ref="char:EOLhyphen"/>ny places; and we have utterly loſt that Treatiſe of the <hi>Paſſi<g ref="char:EOLhyphen"/>ons</hi> which our Author had wrote by it ſelf, and which is a natural continuation of this. However, this piece is not ſo mangled and defac'd, but that there still re<g ref="char:EOLhyphen"/>mains enough to give us a very great <hi>Idea</hi> of its Author, and a
+<pb facs="tcp:56950:6"/>
+true ſenſe of our misfortune in the loſs of his other Works, the num<g ref="char:EOLhyphen"/>ber whereof were very conſidera<g ref="char:EOLhyphen"/>ble; <hi>Suidas</hi> reckons up Nine, of of all which, there ts ſcarce any one thing left but the bare Titles: They were all pieces of Criticiſm, and doubtleſs we cannot ſuffici<g ref="char:EOLhyphen"/>ently deplore the loſs of thoſe in<g ref="char:EOLhyphen"/>comparable Originals, which (to judge of 'em by this one) ought to be look'd upon as ſo many Patterns of true ſenſe, Learning, and Eloquence; I ſay of Elo<g ref="char:EOLhyphen"/>quence, for that <hi>Longin</hi> does not, like <hi>Ariſtotle</hi> and <hi>Hermogenes,</hi> lay down his Precepts in a plain ordinary way, but takes care to avoid that fault which he found in <hi>Cecilius,</hi> when he ſaid of him, That he had wrote of Loftineſs in a mean ſtyle. He writes of Eloquence with all the Excellen<g ref="char:EOLhyphen"/>cies
+<pb facs="tcp:56950:7"/>
+of Eloquence, many times, when he teaches us any Figure, he himſelf uſes that Figure which he teaches, and treating of Lofti<g ref="char:EOLhyphen"/>neſs, is himſelf very Lofty; all which he does with ſo much Ac<g ref="char:EOLhyphen"/>curateneſs and Art, that through<g ref="char:EOLhyphen"/>out his whole style there is no one place, wherein he is not him<g ref="char:EOLhyphen"/>ſelf an Example to his own Rules. Hence is it, that this Book has been of ſo great eſteem amongſt the Learned, who have always look'd upon it as the beſt piece of Rhetorick that Anti<g ref="char:EOLhyphen"/>quity can boaſt of. <hi>Cauſabon</hi> calls it <hi>A Golden Book,</hi> inti<g ref="char:EOLhyphen"/>mating thereby how weighty it is, which notwithſtanding it is but of a little bulk, may very well be put in the ſcale with the biggeſt Volume. Nor do I find, but that <hi>Longin</hi> was accounted one of the
+<pb facs="tcp:56950:7"/>
+most famous men of his time. <hi>Porphyrius</hi> the Philoſopher, (who had been his Schollar) ſpeaks of him as of a Prodigy; for (as he tells us) his judgment was the Probate of true ſenſe, his Verdict was in all Writings a final Decree, and nothing was bad or good till <hi>Longin</hi> had either approv'd or cenſur'd it. Nay, <hi>Eunapius</hi> goes yet farther, and, to expreſs how much he values <hi>Longin,</hi> ſuffers himſelf to be carried away with extra<g ref="char:EOLhyphen"/>vagant Hyperboles, thinking it altogether improper to ſpeak of the extraordinary deſerts of ſo great an Author in a common and familiar style. Yet after all, <hi>Longin</hi> was not onely a great Critick, but a conſiderable Mini<g ref="char:EOLhyphen"/>ſter of State; and 'tis a ſufficient Encomium for him to ſay, That
+<pb facs="tcp:56950:8"/>
+he was in great favour with <hi>Ze<g ref="char:EOLhyphen"/>nobia</hi> that famous Queen of <hi>Palmyra,</hi> who, after the death of her Husband <hi>Odenatus,</hi> de<g ref="char:EOLhyphen"/>clared her ſelf Queen of the <hi>Eaſt</hi> She at firſt made uſe of him to teach her the <hi>Greek</hi> Tongue, but ſoon preferr'd him to be one of her principal Miniſters; 'twas he that encourag'd her to main<g ref="char:EOLhyphen"/>tain the Title of Queen of the <hi>Eaſt,</hi> 'twas he that buoy'd her up in all her adverſities, and ſup<g ref="char:EOLhyphen"/>plied her with thoſe expreſſions which ſhe made uſe of in her Let<g ref="char:EOLhyphen"/>ter to <hi>Aurelian</hi> the Emperour, when by him ſhe was required to yield her ſelf up; which very thing was the occaſion of our Au<g ref="char:EOLhyphen"/>thors death, a death as equally glorious to him, as inglorious to <hi>Aurelian,</hi> and which has quite eclipſed the brightneſs of all his
+<pb facs="tcp:56950:8"/>
+former actions. Now then, ſince the death of this perſon is one of the most remarkable paſſages in the Hiſtory of thoſe times, it will not perhaps be amiſs to let you ſee what <hi>Flavius Vopiſcus</hi> has written thereupon. The Ar<g ref="char:EOLhyphen"/>my of <hi>Zenobia</hi> and the Confede<g ref="char:EOLhyphen"/>rater (ſays he) being routed near the Town of <hi>Emaus, Aurelian</hi> laid Siege to <hi>Palmyra,</hi> a City to which this Princeſs was fled, but finding a ſtronger reſiſtance than he look'd for, or could poſ<g ref="char:EOLhyphen"/>ſibly be expected from a Woman, and being almost tired out with the Siege, he endeavoured to win it by Capitulation, and in or<g ref="char:EOLhyphen"/>der thereunto wrote a Letter to <hi>Zenobia,</hi> wherein he offered to ſave her life, and allow her a place of retirement, provided ſhe would ſurrender her ſelf within
+<pb facs="tcp:56950:9"/>
+a certain time. <hi>Zenobia</hi> (ſays <hi>Vopiſcus</hi>) anſwer'd this Letter with a greater haughtineſs, than was conſiſtent with the juncture of her preſent affairs, whereby ſhe thought to frighten <hi>Aurelian.</hi> This was her anſwer.</p>
+            <p>Zenobia <hi>Queen of the Eaſt, to the Emperour</hi> Aurelian. <hi>No one ever made ſo inſolent a demand as thou. Know,</hi> Au<g ref="char:EOLhyphen"/>relian, <hi>that 'tis valour does all in War. Thou commandeſt me to yield my ſelf up, as if you had forgot that</hi> Cleopatra <hi>choſe rather to die a Queen, than live in any other condition. We expect aid from the</hi> Perſi<g ref="char:EOLhyphen"/>ans, <hi>the</hi> Saraſens <hi>will take up Arms for us, the</hi> Armenians <hi>will ſuccour us. A company of Highway-men in</hi> Syria <hi>has de<g ref="char:EOLhyphen"/>feated
+<pb facs="tcp:56950:9"/>
+your Army, think then what you muſt neceſſarily ex<g ref="char:EOLhyphen"/>pect when all theſe Forces are united; then you will abate of that pride, wherewith, as if you were Maſter of the Univerſe, you command me to ſurrender.</hi>
+            </p>
+            <p>This Letter (continues <hi>Vo<g ref="char:EOLhyphen"/>piſcus</hi>) did rather incenſe than terrifie <hi>Aurelian;</hi> for ſome few days after the Town of <hi>Palmyra</hi> was taken, and with it <hi>Zeno<g ref="char:EOLhyphen"/>bia,</hi> as ſhe was flying to the <hi>Perſi<g ref="char:EOLhyphen"/>ans.</hi> The whole Army would have had her put to death, but <hi>Aureli<g ref="char:EOLhyphen"/>an</hi> was unwilling to ſtain his Victory with the blood of a Wo<g ref="char:EOLhyphen"/>man; therefore he reſerved her to grace his Triumph, and put ſuch <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> to the ſword as were of <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Co<gap reason="illegible" resp="#PDCC" extent="6 letters">
+                  <desc>••••••</desc>
+               </gap> amongſt whom
+<pb facs="tcp:56950:10"/>
+(ſays our Hiſtorian) was <hi>Longin</hi> the Philoſopher, who taught the Queen <hi>Greek,</hi> and was ad<g ref="char:EOLhyphen"/>judged to die for having indited the fore-mentioned Letter; for though it was in the <hi>Syriack</hi> Tongue, yet was he ſuſpected to be the Author thereof. <hi>Zoſimus</hi> the Hiſtorian is of opinion, that <hi>Zenobia</hi> her ſelf impeach'd him. <hi>Zenobia</hi> (ſays he) <hi>being taken Priſoner, laid all the blame up<g ref="char:EOLhyphen"/>on her Miniſters, who</hi> (ſays ſhe) <hi>taking advantage of the weak<g ref="char:EOLhyphen"/>neſs of my Sex, have been the inſtruments of that crime with which I am now charg'd.</hi> Amongſt others, ſhe named <hi>Lon<g ref="char:EOLhyphen"/>gin,</hi> whom accordingly <hi>Aureli<g ref="char:EOLhyphen"/>an</hi> cauſed to be put to death. This Noble Perſon (ſays <hi>Zoſimus</hi>) died with ſo much reſolution and unconcern, that even thoſe who
+<pb facs="tcp:56950:10"/>
+were moſt grieved for him, were in ſome meaſure comforted. Whereby we may ſee, that <hi>Lon<g ref="char:EOLhyphen"/>gin</hi> was not onely an able Rhe<g ref="char:EOLhyphen"/>toritian as <hi>Quintilian</hi> and <hi>Her<g ref="char:EOLhyphen"/>mogenes,</hi> but a Philoſopher worthy to be compared to the <hi>So<g ref="char:EOLhyphen"/>crates</hi>'s and <hi>Cato</hi>'s. There is not one thing in all his Book which does not agree with what I have ſaid, and throughout the whole, we may read the Chara<g ref="char:EOLhyphen"/>cter of a brave Perſon. To con<g ref="char:EOLhyphen"/>clude therefore, I am of opinion with the <hi>French</hi> Tranſlator, (of whom I ſhall ſay nothing, he be<g ref="char:EOLhyphen"/>ing already ſufficiently known) that thoſe few hours cannot be miſpent, which are employ'd in the peruſal and Tranſlation of a Piece, which (if we are not wholly taken up with Novels)
+<pb facs="tcp:56950:11"/>
+may be both profitable and de<g ref="char:EOLhyphen"/>lightful to us; but that I leave to the judicious Reader.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:56950:11"/>
+            <head>A TREATISE OF THE LOFTINESS OR Elegancy of Speech.</head>
+            <div n="1" type="chapter">
+               <head>
+                  <hi>CHAP. I.</hi> A Preface to the whole, <hi>&amp;c.</hi>
+               </head>
+               <p>YOu are not ignorant (dear <hi>Terentianus</hi>) that when we read toge<g ref="char:EOLhyphen"/>ther the ſmall Trea<g ref="char:EOLhyphen"/>tiſe of <hi>Loftineſs,</hi> which <hi>Cecili<g ref="char:EOLhyphen"/>us</hi> wrote, we found, that the
+<pb n="2" facs="tcp:56950:12"/>
+meanneſs of his Style did not at all ſuit with the greatneſs of his Subject; that he had omit<g ref="char:EOLhyphen"/>ted the moſt material Branches thereof; and that, in a word, it was not a work any ways uſeful to the Reader, which ought to be the chiefeſt aim and endeavours of thoſe who write. Beſides, he that will treat of any Art, muſt carefully conſider two things: the Firſt of which is, ſo to handle his Subject, that it be clearly underſtood. The Second (and, as I take it, the moſt material which we now drive at) is, to ſhew, how and by what means the ſame may be attained. In the firſt of theſe, <hi>Cecilius</hi> has been ex<g ref="char:EOLhyphen"/>tremely careful; for in many words he tells us what this lof<g ref="char:EOLhyphen"/>tineſs is, as if it were a thing altogether unknown; but is
+<pb n="3" facs="tcp:56950:12"/>
+not ſo kind, as to inſtruct us what way we muſt take to ac<g ref="char:EOLhyphen"/>quire it, that he paſſes by, yet wherefore, I know not, unleſs that he look upon it as uſeleſs, and not worth his while. How<g ref="char:EOLhyphen"/>ever, to give him his due, this Author is not ſo much to be diſcommended for the faults he has committed, as worthy of praiſe for his well-meant de<g ref="char:EOLhyphen"/>ſign, and the great pains he has taken. Now then, ſince your earneſt entreaties have pre<g ref="char:EOLhyphen"/>vail'd with me to ſay ſome<g ref="char:EOLhyphen"/>thing upon this Toppick, I have made a few reaſonable obſervations thereupon, which perhaps may prove advantagi<g ref="char:EOLhyphen"/>ous to many of our <hi>Rhetorici<g ref="char:EOLhyphen"/>ans.</hi> But upon this condition, that we ſhall peruſe them toge<g ref="char:EOLhyphen"/>ther, and that you will freely ſpeak your opinion. For as a
+<pb n="4" facs="tcp:56950:13"/>
+certain<note n="*" place="margin">Pythagoras.</note> wiſe man has very well ob<g ref="char:EOLhyphen"/>ſerved, If there is any thing that can liken us to the Gods, 'tis to be <hi>courteous,</hi> and <hi>ſpeak the truth.</hi> Laſtly, it being to you, a man of pro<g ref="char:EOLhyphen"/>found Learning and Know<g ref="char:EOLhyphen"/>ledge, that I direct this Diſ<g ref="char:EOLhyphen"/>courſe, I ſhall not dwell long upon ſeveral points, very ne<g ref="char:EOLhyphen"/>ceſſary to be laid down and underſtood, before I proceed to the principal matter; nor uſe many words to tell you, that Loftineſs is the thing which gives a Sovereign per<g ref="char:EOLhyphen"/>fection to well-ſpeaking, and that by which, not onely Poets, but other Writers of all Ages have grown famous to Poſterity; for it does not ſo much perſwade, as tranſport us to a certain admiration and
+<pb n="5" facs="tcp:56950:13"/>
+aſtoniſhment, which is a clear different thing from bare plea<g ref="char:EOLhyphen"/>ſing or perſwading. It may be ſaid of Perſwaſion, that for the moſt part it has no more power over us, than we our ſelves will allow; but 'tis not ſo of Loftineſs, that gives life and vigour to Speech, which works irreſiſtably upon the very Souls of thoſe who have it. Nor is any thing ſufficient to the re<g ref="char:EOLhyphen"/>commendation of a piece, or the ſetting off the fineneſs of the invention, and beauty of the Oeconomy or diſpoſition thereof, unleſs there be a juſt Height and Loftineſs, whereby the whole ſtrength and finews of Oratory are firmly united and contracted together. But all I ſhall or can ſay herein, will be of little uſe to you, who al<g ref="char:EOLhyphen"/>ready know theſe things by
+<pb n="6" facs="tcp:56950:14"/>
+experience, and are able to be my Inſtructer.</p>
+            </div>
+            <div n="2" type="chapter">
+               <head>
+                  <hi>CHAP. II.</hi> If Loftineſs be a peculiar Art, <hi>&amp;c.</hi>
+               </head>
+               <p>FIrſt, let us ſee whether Lof<g ref="char:EOLhyphen"/>tineſs be a peculiar Art; for there are thoſe that will not allow that it ought to be ſo reckon'd, or that it may be re<g ref="char:EOLhyphen"/>duced to a certain method by Rules and Precepts. Loftineſs, ſay they, is not artificially to be learn'd, but the onely way to have it, is to be born to it. In this, as in many other things, they will admit of no other Miſtris than Nature her ſelf, confidently and ignorantly af<g ref="char:EOLhyphen"/>firming, that from the conſtraint
+<pb n="7" facs="tcp:56950:14"/>
+of Rules, nothing can be ex<g ref="char:EOLhyphen"/>pected but weak and barren thoughts. Yet I doubt not ma<g ref="char:EOLhyphen"/>nifeſtly to prove the contrary. True it is, that Nature never appears more liberal than in ſublime and pathetical Speech; yet not ſo, as altogether to ex<g ref="char:EOLhyphen"/>clude Art: I grant, that in all things ſhe is the principal Foundation and Baſis; but cer<g ref="char:EOLhyphen"/>tain it is, that we ought to have ſome method, which may teach us what may be ſaid, and in what place; and this is that that contributes to a per<g ref="char:EOLhyphen"/>fect habit of Loftineſs. For as a Ship that is ſet a drift, and not duely ballanc'd, is in great dan<g ref="char:EOLhyphen"/>ger of periſhing; ſo is it of Loftineſs, if it be ſuffered to be carried away with the impe<g ref="char:EOLhyphen"/>tuous ſtream of a raſh ignorant Nature. Our Fancy hath often<g ref="char:EOLhyphen"/>times
+<pb n="8" facs="tcp:56950:15"/>
+as much need of a Curb as a Spur. And <hi>Demoſthenes</hi> tells us, that the greateſt good which can befall us in this life, is <hi>to be happy;</hi> but that there is yet another, without which, the former cannot ſubſiſt, <hi>(viz.) To know how to carry our ſelves diſcreetly.</hi> The ſame may be ſaid of the Elegancy of Speech, Na<g ref="char:EOLhyphen"/>ture is that which muſt lead the way to it, but without the conduct of Art, ſhe becomes blind, and leads us aſtray. Note, <note n="*" place="margin">Note, the Author had ſpoken of a Ro<g ref="char:EOLhyphen"/>mantick Style, and to that purpoſe ci<g ref="char:EOLhyphen"/>ted ſome fooleries of a Tragick Poet.</note> Theſe are his thoughts, <hi>The torrent of twi<g ref="char:EOLhyphen"/>sted flames, to vomit againſt Heaven, to make</hi> Borcas <hi>his</hi> Flutiniſt. And many more ſuch like expreſſi<g ref="char:EOLhyphen"/>ons is this piece ſtuff'd with, which are not lofty and great,
+<pb n="9" facs="tcp:56950:15"/>
+but extravagantly Bombaſtick, and if cloſely examined, ſo con<g ref="char:EOLhyphen"/>founded with vain and intricate thoughts; that they rather ſeem troubleſom and ridicilous, then Delightfull or Magnificent; if then it be a fault in Tragedy, (which naturally is Lofty and Great) to be cram'd with imper<g ref="char:EOLhyphen"/>tinent Raptures; how much more is it to be diſſalow'd in common Speech; hence is it, that <hi>Georgius</hi> is cenſur'd for calling <hi>Xertes,</hi> the <hi>Jupiter</hi> of the <hi>Perſians:</hi> and <hi>Vultures,</hi> living <hi>Sepulchers.</hi> The ſame Fate hath <hi>Caliſthenes</hi> found, who in many places of his Writings, not obſerving a due Pitch has ſoared quite out of ſight. Yet do I not find any one ſo guilty of this folly as <hi>Clytarcus,</hi> Who affects ſuch Haughtineſs in all his expreſ<g ref="char:EOLhyphen"/>ſions, that (ſo ſpeak in <hi>Sophocles's</hi>
+                  <pb n="10" facs="tcp:56950:16"/>
+termes) <hi>he lookes like one who opens his Mouth wide to breath into a ſmall Pipe:</hi> The ſame may be ſaid of <hi>Amphicartes, Hegeſias,</hi> and <hi>Matris,</hi> all ſo full of <hi>Enthuſiaſme,</hi> and Divine <hi>Extaſie,</hi> that when they think to Thunder, they do but make noiſe, and play the Fool like little Children; and without doubt in Eloquence, there is nothing ſo hard to be avoided, as Exceſs of Fancy: for while we aim naturally at ſomething that is extraordinary out of fear of being thought too lowly, for the moſt part we are ſubject to this Error, upon this perſwaſion that.</p>
+               <q>The fall is brave, that's in a Noble Cauſe.</q>
+               <p>
+                  <pb n="11" facs="tcp:56950:16"/>But moſt certain it is, that a Tumor in any part of the Body is not more dangerous then in Speech; which, however it ap<g ref="char:EOLhyphen"/>pears outwardly, is within a meer Vacuum and Timpany: as tis obſerved, that there is no di<g ref="char:EOLhyphen"/>ſeaſe ſo juceleſs, or that renders the Patient ſo thirſty, as the Dropſy. In fine, the fault of a two Haughty Stile, is, that it tranſgreſſeth the very bounds of greatneſs; contrary to this, is a Childiſh and Fooliſh Stile, than which nothing can be more averſe to the delicacy and gran<g ref="char:EOLhyphen"/>deur of Speech. Let us then ſee what it is, and we ſhall find, 'tis nothing but a School-boyes thought, which by a too nice examination becomes cold and inſipid. This is the fault of thoſe, who ſtriving to ſay ſomething extreamly fine, and
+<pb n="12" facs="tcp:56950:17"/>
+affecting altogether Tropes and Figures, produce nothing but dull affectation. There is a<g ref="char:EOLhyphen"/>nother Enemie to true Elocu<g ref="char:EOLhyphen"/>tion, which relates to the pathe<g ref="char:EOLhyphen"/>ticall part; <hi>Theodorus</hi> calls it, <hi>an unſeaſonable Madneſs;</hi> when one rages too high where he ought to be calm, or grows too hot, where he ſhould be but lukewarm; ſo that ſome men drunk with this fury, do not expreſs themſelves with a be<g ref="char:EOLhyphen"/>coming Air, but fall into the extravagant Fit, of a declai<g ref="char:EOLhyphen"/>ming School-boy; and thereby become inſupportably odious to their audience; which neceſ<g ref="char:EOLhyphen"/>arily muſt happen, when they riſe where they ſhould fall, and fall where they ought to riſe, but of this in annother place.</p>
+            </div>
+            <div n="3" type="chapter">
+               <pb n="13" facs="tcp:56950:17"/>
+               <head>
+                  <hi>CHAP. III.</hi> Of a Faint Style.</head>
+               <p>OF this faint childiſh ſtyle, whereof we have juſt before ſpoken, <hi>Timeus</hi> is very full; not but that here and there he has a touch of greatneſs; and to ſay truth, his fancy is good, and well enough expreſt. yet is he naturally inclined to cenſure other mens faults, tho blinded with his own; and ſo curious in ſearching after new unheard of thoughts, that he cannot in the end avoid this Childiſhneſs. To this purpoſe I ſhall quote onely two or three examples; ſeeing <hi>Cecilius</hi> has already afforded us ſo many in his commendation of <hi>Alexander</hi>
+                  <pb n="14" facs="tcp:56950:18"/>
+the great, he has (ſaith he) Conquered <hi>Aſia</hi> in leſs time, then <hi>Iſocrates</hi> ſpent in Writing his <hi>Panegyrick.</hi> Here is an ex<g ref="char:EOLhyphen"/>cellent compariſon of <hi>Alexander</hi> the great with a <hi>Rhetorician,</hi> by the ſame reaſon (if I miſtake not good <hi>Timeus</hi>) ſhould the <hi>Lacedemonians</hi> yield to <hi>Iſocrates;</hi> ſeeing they ſpenth thirty years in beſeiging <hi>Meſſina,</hi> whereas he compoſed his <hi>Panegyrick</hi> in ten. Again, when ſeveral <hi>Athenians</hi> were taken Priſoners in <hi>Scicilie,</hi> what think you was the excla<g ref="char:EOLhyphen"/>mation he made, you ſhall hear. <hi>It is</hi> (ſaid he) <hi>a puniſhment from Heaven by reaſon of their Impiety towards the God Her<g ref="char:EOLhyphen"/>mes,</hi>
+                  <note place="margin">Hermes <hi>in</hi> Greek <hi>Sng<g ref="char:EOLhyphen"/>nifies</hi> Mer<g ref="char:EOLhyphen"/>cury.</note> 
+                  <hi>otherwiſe called Mercury, in Demol<g ref="char:EOLhyphen"/>liſhing his ſtatues; and the ra<g ref="char:EOLhyphen"/>ther for that one of the chief Of<g ref="char:EOLhyphen"/>ficers in the Enemies Army was
+<pb n="15" facs="tcp:56950:18"/>
+called Hermocrates the Son of Her<g ref="char:EOLhyphen"/>mes</hi> ſaith <hi>Terrentianus.</hi> I wonder why he did not as well ſay, that the Gods permitted <hi>Dionyſius</hi> the <hi>Tyrant</hi> to be drove out of his Kingdome by <hi>Dyon</hi> and <hi>Herclydes</hi> by reaſon of his irreverence to <hi>Dyon</hi> and <hi>Heracles,</hi>
+                  <note place="margin">
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, Jupiter <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> Herculis.</note> (that is) <hi>Jupiter</hi> and <hi>Hercules,</hi> but what need I trouble my ſelf, any lon<g ref="char:EOLhyphen"/>ger with <hi>Timeus, Xenophon</hi> and <hi>Plato</hi> thoſe ancient worthies, and Schollers of <hi>Socrates,</hi> did ſometimes forget themſelves, and fall into ſuch meane ſilly expreſions; for example, the former of theſe two in the Book which he wrought of the Go<g ref="char:EOLhyphen"/>vernment of the <hi>Lacedemonians</hi> hath theſe words. <hi>You ſhall no more hear them Speak</hi> (ſaith he) <hi>then Stones; they ſtir their Eyes no more then if they were made
+<pb n="16" facs="tcp:56950:19"/>
+of Braſs. Laſtly they have more modeſty then is in thoſe parts of the Eye which in Greeke we call Virgins.</hi> 'Twere more proper for <hi>Ampicartes</hi> then <hi>Zenophon</hi> to ſay the <hi>Eye-balls</hi> were Virgins full of modeſty. Good God! what a thought was there, be<g ref="char:EOLhyphen"/>cauſe <hi>Core,</hi> which in <hi>Greek</hi> ſig<g ref="char:EOLhyphen"/>nifies the <hi>Apple</hi> of the <hi>Eye;</hi> doth alſo ſignifie a <hi>Virgin,</hi> to ſay that all <hi>Eye-balls</hi> generally are <hi>Virgins</hi> full of modeſty; when as there is no place, wherein Impudence doth ſooner appear than in the <hi>Eye;</hi> which makes <hi>Homer,</hi> when he would give the Character of an Im<g ref="char:EOLhyphen"/>pudent Fellow ſay, <hi>Thou Drunk<g ref="char:EOLhyphen"/>ard with thy Doggs Eyes. Tym<g ref="char:EOLhyphen"/>eus</hi> could not ſee this poor and weak thought in <hi>Zenophon,</hi> but as if it had onely belong'd to him, takes it, from that Au<g ref="char:EOLhyphen"/>thor;
+<pb n="17" facs="tcp:56950:19"/>
+and thus applies it in his life of <hi>Agathocles It is not strange that he ſhould Raviſh his own Couſen who was just Married to another, is it not I ſay ſtrange that he ſhould Raviſh her the very next day after her Wedding; for who could have done ſuch a thing that had Virgins in his Eyes, and not immodest Women;</hi> But enough of ſuch traſh; now what think you of <hi>Plato,</hi> who (other<g ref="char:EOLhyphen"/>wiſe a moſt Divine Author) Spea<g ref="char:EOLhyphen"/>king of the Tables of <hi>Cypreſs-Wood,</hi> whereon the Laws were Written; ſaid, <hi>When they had wrought all theſe things, they pla<g ref="char:EOLhyphen"/>ced the Monuments of Cypreſs in the Temples.</hi> And in another place he ſaith, <hi>as touching the Walls (Megillas.</hi>
+                  <note place="margin">The <hi>Spartans</hi> had then no <hi>Wall.</hi>
+                  </note>) <hi>I am of Opinion with the Spartans, to let them ſleep and not raiſe 'em, ſo long as they
+<pb n="18" facs="tcp:56950:20"/>
+are layne downe to rest.</hi> There is a very ridicilous paſſage in <hi>Herodotus,</hi> when he calls beauti<g ref="char:EOLhyphen"/>ful Women, the diſeaſe of the Eyes: but this is the more tollerable, in reſpect 'tis ſup<g ref="char:EOLhyphen"/>poſed to be ſpoken by a com<g ref="char:EOLhyphen"/>pany of <hi>Barbarians</hi> in the heat of their Debaucheries; yet for that theſe ſort of People are of no great credit, 'tis not wiſe<g ref="char:EOLhyphen"/>ly done by the uſing an unde<g ref="char:EOLhyphen"/>cent expreſſion, to run the ha<g ref="char:EOLhyphen"/>zard of diſpleaſing future Ages.</p>
+            </div>
+            <div n="4" type="chapter">
+               <head>
+                  <hi>CHAP. IV.</hi> Of the cauſe of a Faint Stile.</head>
+               <p>ALl theſe mean Childiſh af<g ref="char:EOLhyphen"/>fections proceed from a too great fondneſs of new
+<pb n="19" facs="tcp:56950:20"/>
+thoughts, a very Epidemicall diſeaſe amongſt the Writers of the preſent times; Certain it is, that good and bad do often come from the ſame ſource; therefore we ſee that the ſelf ſame thing, which ſometimes ſerves to adorne a piece, that I ſay the ſelf ſame thing which often gives the grace and beau<g ref="char:EOLhyphen"/>ty to Elocution, does at other times work clear contrary ef<g ref="char:EOLhyphen"/>fects, as plainely may appeare by <hi>Hyperboles,</hi> and other Figures called <hi>Pluralls,</hi> but how dange<g ref="char:EOLhyphen"/>rous 'tis to uſe them, ſhall be ſhown elſewhere. Now then let us ſee, how we may avoid thoſe Errors which ſeem ſlightly to paſs for loftineſs; and without doubt we ſhall arive at our in<g ref="char:EOLhyphen"/>tended purpoſe if we can obtain a clear and diſtinct knowledge, and learn to judge rightly there<g ref="char:EOLhyphen"/>of,
+<pb n="20" facs="tcp:56950:21"/>
+which is no very eaſy thing; ſince that a true Judgment of diſtinguiſhing between the Ele<g ref="char:EOLhyphen"/>gancy and Weakneſs of Speech, muſt be the Product of a long practice, and conſummated Stu<g ref="char:EOLhyphen"/>dy. But to proceed, I will now Chalk out a way, which per<g ref="char:EOLhyphen"/>haps may ſerve to lead thither.</p>
+            </div>
+            <div n="5" type="chapter">
+               <head>
+                  <hi>CHAP. V.</hi> The means in general how to know loftineſs.</head>
+               <p>WE cannot ſay, (dear <hi>Terentianus</hi>) that the things of this life are great, when there is a manifeſt great<g ref="char:EOLhyphen"/>neſs in the very undervalu<g ref="char:EOLhyphen"/>ing and deſpiſing the ſame; ſuch are riches, power, honour, Empire, and other like ſeeming bleſſings, glorious 'tis true in
+<pb n="21" facs="tcp:56950:21"/>
+appearance, but ſuch as can never paſs with a diſcreet man for real and ſubſtantial good. Hence is it that we admire not ſo much thoſe who do, as others who may, but out of a noble<g ref="char:EOLhyphen"/>neſs of mind will not enjoy them. The ſame may be ſaid of the works of Poets and Orators; and we ought to be very cau<g ref="char:EOLhyphen"/>tious, not to take a hideous noiſe, and jingling of words ſhuffled together, for Sublime Eloquence. For that which is truly Sublime, has this inſe<g ref="char:EOLhyphen"/>parable quality, that it affects the Soul of him who hears it, and makes her conceive a better Opinion of her ſelf, filling her with an unuſual Joy, and a kind of a (I know not what) pride, as if ſhe her ſelf had been the Author of what ſhe does but barely hear. When therefore,
+<pb n="22" facs="tcp:56950:22"/>
+any thing is recyted to a Ju<g ref="char:EOLhyphen"/>dicious and underſtanding man, if after hearing it repeated ſeveral times, he does not find himſelf edifyed, or any impreſ<g ref="char:EOLhyphen"/>ſion left upon his mind; but if on the other hand, after liſtning to it attentively, he ſtill remains unmoved, or is rather dejected, we muſt believe, there is no<g ref="char:EOLhyphen"/>thing in it that is weighty or ſublime, but that it is an empty ſound, which ſtrikes the ear, and reaches not the mind. 'Tis an infallible ſign of a lofty Speech, when it ſets our thoughts a working, and has that effect over us, which 'tis difficult, if not impoſſible to withſtand, leaving behind a ſtrong remem<g ref="char:EOLhyphen"/>brance and Idea of the things we have heard. In a word, you may conclude a piece to be Sublime, and Elegant, when
+<pb n="23" facs="tcp:56950:22"/>
+there is a pleaſing Symmetrie throughout. For when a great Aſſembly of men, of as different humors and inclinations, as age or profeſſion, are equally touch'd with a Speech, that concurrence of opinions and joynt approba<g ref="char:EOLhyphen"/>tion, is an undoubted proof of the force and greatneſs there<g ref="char:EOLhyphen"/>of.</p>
+            </div>
+            <div n="6" type="chapter">
+               <head>
+                  <hi>CHAP. VI.</hi> Of the five Sources or Heads of Loftineſs.</head>
+               <p>THere are five principal Heads of Loftineſs, but they all preſuppoſe <hi>a good faculty of ſpeaking,</hi> as a common foun<g ref="char:EOLhyphen"/>dation, without which they can<g ref="char:EOLhyphen"/>not ſtand. That therefore being ſuppos'd the firſt and moſt con<g ref="char:EOLhyphen"/>ſiderable
+<pb n="24" facs="tcp:56950:23"/>
+is, <hi>a regular elevation of thought.</hi> As is already ſhewn in our remarks upon <hi>Xenophon.</hi> The ſecond conſiſts in <hi>being pathetical;</hi> by which is meant that Enthuſiaſm and Natural ve<g ref="char:EOLhyphen"/>hemency which touches and af<g ref="char:EOLhyphen"/>fects us. Theſe two firſt, we owe chiefly to Nature, and have from our Cradles; whereas the two latter do partly depend upon Art. The third is nothing but <hi>figures diverſly faſhioned.</hi> And thoſe are of two ſorts, fi<g ref="char:EOLhyphen"/>gures in thoughts, and figures in words. The fourth ſhall be <hi>a ſtaetlineſs of Expreſſion.</hi> Which may be ſubdivided into two parts, <hi>(viz.)</hi> the choice of words and elegant figurative Phraſes. The fifth and laſt (whence, pro<g ref="char:EOLhyphen"/>perly ſpeaking, all greatneſs is derived, and which includes the other four) <hi>is the ordering and
+<pb n="25" facs="tcp:56950:23"/>
+well placing</hi> of ſentences accor<g ref="char:EOLhyphen"/>ding to their magnificence and dignity. Now then as to every one in particular; but by the way let me mind you, that <hi>Cecilius</hi> has forgot ſome of theſe, and amongſt the reſt, that of being Pathetical; which if he has done out of an Opini<g ref="char:EOLhyphen"/>on, that it always goes hand in hand with loftineſs, and that both make but one, he is migh<g ref="char:EOLhyphen"/>tily deceived: Since there are ſome paſſions which are void of all greatneſs, as trouble, fear, and ſorrow, and again many Sublime and lofty things, without any paſſion at all. As is that which <hi>Homer</hi> ſays of the<note n="*" place="margin">Theſe were the Gyants, Odyſs. l. 11.</note> 
+                  <hi>Aloydes;</hi>
+                  <q>
+                     <l>By them vaſt Pelion was on Oſſa thrown,</l>
+                     <l>
+                        <pb n="26" facs="tcp:56950:24"/>To ſtorm the skies, and ſnatch the Heavenly Crown.</l>
+                  </q>
+Nay he goes yet further,
+<q>Sure they had done it too, &amp;c.</q>
+And in proſe <hi>Panegyricks,</hi> and ſuch ſort of <hi>Speeches,</hi> made only for Oſtentation, may be full of greatneſs and ſublimity, tho' there be no paſſion. So that amongſt Orators themſelves, that which is moſt pathetical, is leaſt fit for <hi>Panegyrick;</hi> and on the other hand, that which is moſt proper for <hi>Panegy<g ref="char:EOLhyphen"/>rick,</hi> is leaſt able to affect the Paſſions. But if <hi>Celicius</hi> believes that the being Pathetical, does no ways contribute to loftineſs, and therefore not worth men<g ref="char:EOLhyphen"/>tioning, he is as groſly miſta<g ref="char:EOLhyphen"/>ken: for I dare be bold to ſay,
+<pb n="27" facs="tcp:56950:24"/>
+there is nothing ſets off ſpeech, more than a genteel movement, and a paſſion well carried on. To be ſhort, 'tis a kind of En<g ref="char:EOLhyphen"/>thuſiaſm, or divine rapture, which is the life and vigour of ſpeech.</p>
+            </div>
+            <div n="7" type="chapter">
+               <head>
+                  <hi>CHAP. VII.</hi> Of loftineſs of Thought.</head>
+               <p>THough of the five things whereof we have ſpoken, the firſt and moſt material <hi>(viz. the Elevation of the fancy)</hi> be rather a gift of Heavens, than a qualification altogether to be acquired; yet ought we, as much as poſſible we can, to employ it daily about ſome<g ref="char:EOLhyphen"/>thing that is great. And be<g ref="char:EOLhyphen"/>cauſe it may be asked how this
+<pb n="28" facs="tcp:56950:25"/>
+can be done? I have already ſhewed, That the Elevation of the fancy, is a perfect repreſen<g ref="char:EOLhyphen"/>tation of the greatneſs of the ſoul. Which makes us ſome<g ref="char:EOLhyphen"/>times admire the very thoughts of a man, tho' he ſays not a word: becauſe of that preſence of mind, which we diſcover in him. For Example, the ſilence of <hi>Ajax</hi> in Hell, in the <hi>Odyſſes;</hi> That ſilence declared ſomething more noble and glo<g ref="char:EOLhyphen"/>rious,<note n="*" place="margin">Lib 11.</note> than all be could have ſaid. The firſt good quality therefore requiſite to a compleat Orator is, that his thoughts be not mean and humble: for is it poſſible that a man, whoſe thoughts are employed about baſe and ſervile matters, ſhould ever be Author of any thing worthy to be committed to Poſterity? No ſure, that can
+<pb n="29" facs="tcp:56950:25"/>
+only be expected from the exal<g ref="char:EOLhyphen"/>ted and lofty fancies of High-Spirited men. See for example, the Anſwer which <hi>Alexander</hi> made, when <hi>Darius</hi> proffered him half <hi>Aſia</hi> in marriage with his Daughter. <hi>Were I Alexan<g ref="char:EOLhyphen"/>der</hi> (ſaid <hi>Parmenio</hi>) I would ac<g ref="char:EOLhyphen"/>cept the offer, and ſo would I (reply'd the Prince) <hi>If I were Parmenio.</hi> Could any one but an <hi>Alexander</hi> have made ſuch a reply 'tis in this that <hi>Homer</hi> is ſo excellent, whoſe thoughts are always ſublime, as appears in his deſcription of <hi>Eris,</hi> or the Goddeſs of ſtrife, when he ſays,
+<q>Her head's in Heaven, and on Earth her feet.</q>
+               </p>
+               <p>It may juſtly be ſaid, that this large extent, is not ſo much
+<pb n="30" facs="tcp:56950:26"/>
+the meaſure of that Goddeſs, as of the Capacity and height of <hi>Homer's</hi> fancy: far different from this, is that verſe of <hi>Heſi<g ref="char:EOLhyphen"/>od's,</hi> in his Poem Intituled the Buckler (if it be true that he Wrote it) where ſpeaking of the Goddeſs of Darkneſs, he ſaies,
+<q>A nasty Humor from her Noſe Diſtill'd.</q>
+Here inſtead of rendring this Goddeſs, as he ought to do, terrible, he makes her odious and lothſome: but obſerve what Majeſtie <hi>Homer</hi> gives to all his Gods, <hi>Iliad</hi> l. 5.</p>
+               <q>
+                  <l>— as far as Humane Eye,</l>
+                  <l>Into the Sea, can from a Hill Deſcry,</l>
+                  <l>So far, Heaven's Fiery Steeds at once can Leap.</l>
+               </q>
+               <pb n="31" facs="tcp:56950:26"/>
+               <p>He meaſures the length of their leapes by the Vniverſe, who then, at this ſtrong <hi>Hy<g ref="char:EOLhyphen"/>perbole,</hi> will not naturally cry out; that if the Horſes of the Gods would take a Second jump, they could not find room enough in the World, no leſs excellent are thoſe Deſcrip<g ref="char:EOLhyphen"/>tions, which he makes of the Fight of the Gods. <hi>(viz.) Il.</hi> l. 21.</p>
+               <q>The Heavens eccho'd, and O<g ref="char:EOLhyphen"/>lympus ſhooke.</q>
+               <p>And in another place,
+<q>
+                     <l>Hell was in Armes, and the in<g ref="char:EOLhyphen"/>fernall King</l>
+                     <l>Leapt from his Throne, Cry'd out, leaſt over him, Iliad <hi>l. 20.</hi>
+                     </l>
+                     <l>Neptune ſhou'd cleave the earth, and ſo the dim,</l>
+                     <l>
+                        <pb n="32" facs="tcp:56950:27"/>Loath'd, filthy Manſion of the howling Fiends,</l>
+                     <l>Shou'd open both to Gods and men, <hi>&amp;c.</hi>
+                     </l>
+                  </q>
+Behold (dear <hi>Terentianus</hi>) the Earth open'd to its Center Hell ready to appear, and all the Machine of the world unhing'd: to ſhew that in this Combate, Heaven, Hell, and all things, as well mortal, as immortal, were engaged; and that nature her ſelf was in danger. But all theſe thoughts, are to be taken in an Allegoricall ſence, otherwiſe are they Atheiſticall, and un<g ref="char:EOLhyphen"/>becoming the Majeſty of the Gods. And, for my part, when I read in <hi>Homer,</hi> of the wounds, Puniſhments, Teares, and Im<g ref="char:EOLhyphen"/>priſonment of Gods, with ſuch like accidents which continual<g ref="char:EOLhyphen"/>ly befall them; I cannot but
+<pb n="33" facs="tcp:56950:27"/>
+think, that he endeavour'd no<g ref="char:EOLhyphen"/>thing more than to make his men at the Seige of <hi>Troy</hi> Gods, and the Gods themſelves, men; Nay he has made their Con<g ref="char:EOLhyphen"/>dition the worſt of the two; for when we are unhappy, Death, at leaſt, will put an end to our afflictions; but as for the Gods, he makes them not ſo much im<g ref="char:EOLhyphen"/>mortal, as eternally miſerable, much better ſucceſs has he, when he deſcribes a God in his full brightneſs and Majeſty, and not ſullied with earthly con<g ref="char:EOLhyphen"/>cerns: as may apear, in that moſt remarkable place, where ſpeak<g ref="char:EOLhyphen"/>ing of <hi>Neptune,</hi> he ſaies, <hi>Il.</hi> l. 13.</p>
+               <q>
+                  <l>Great Neptune march'd, and at each step he took,</l>
+                  <l>Vnder his Feet the woods and mountains ſhook.</l>
+               </q>
+               <p>
+                  <pb n="34" facs="tcp:56950:28"/>And he goes on,
+<q>
+                     <l>— then to the Sea he drove,</l>
+                     <l>Whilſt Whales from Whirlepits round his Chariot throng,</l>
+                     <l>To ſee their Monarch as he paſs'd along.</l>
+                     <l>The Sea for joy open'd its liquid arms,</l>
+                     <l>Whilſt he flew ſwiftly on, <hi>&amp;c.</hi>
+                     </l>
+                  </q>
+So that incomparable Law-giver of the <hi>Jews,</hi> having a ſtrong notion of the greatneſs and power of God, has, in the be<g ref="char:EOLhyphen"/>ginning of his Book, theſe words; <hi>God ſaid, let there be light, and there was light,</hi> &amp;c. <hi>let there be a firmament, and there was a firmament,</hi> &amp;c. It may not perhaps be unpleaſant to you (dear <hi>Terentianus</hi>) if I ſhou'd quote another paſſage
+<pb n="35" facs="tcp:56950:28"/>
+out of the ſame Poet; where<g ref="char:EOLhyphen"/>by you may judge how Heroick he himſelf appears, in writing the Character of a Heroe. A general darkneſs was ſpread over all the <hi>Grecian</hi> Camp, which prevented 'em from in<g ref="char:EOLhyphen"/>gaging: at this <hi>Ajax</hi> being at a ſtand cries out in a rage, <hi>Il. l.</hi> 17.</p>
+               <q>
+                  <l>Drive, O ye Gods, theſe duskie Clouds away,</l>
+                  <l>And fight us fairly in the open day.</l>
+               </q>
+               <p>This is like ſuch a blunt Warrier as <hi>Ajax</hi> was, he does not begg for life, that were a thing too mean for a Heroe; But wanting an opportunity to ſignalize his valour by reaſon of the Dark<g ref="char:EOLhyphen"/>neſs, which hindred him from fighting: He calls out, in a paſſi<g ref="char:EOLhyphen"/>on,
+<pb n="36" facs="tcp:56950:29"/>
+for Day-Light, that he might fall, like himſelf, in grapling with <hi>Jupiter.</hi> Here our Author en<g ref="char:EOLhyphen"/>forces his thoughts with ſuch a vehement fury, as if he himſelf were enraged. <hi>Il. l.</hi> 15.</p>
+               <q>
+                  <l>Like angry <hi>Mars</hi> amidſt the thickest troops,</l>
+                  <l>Or as a raging flame, that in the night</l>
+                  <l>Runs through the woods, and ſpreads its diſmal light,</l>
+                  <l>He foaming at the mouth ap<g ref="char:EOLhyphen"/>pear'd, <hi>&amp;c.</hi>
+                  </l>
+               </q>
+               <p>But I muſt deſire you, for ſeve<g ref="char:EOLhyphen"/>ral reaſons, to obſerve how flat he grows in his <hi>Odyſſes.</hi> Where<g ref="char:EOLhyphen"/>by you will find. that when a great genius begins to decline, it becomes delighted with fables and ſtories. For to prove that his <hi>Odyſſes</hi> were compoſed after
+<pb n="37" facs="tcp:56950:29"/>
+his <hi>Iliads,</hi> I can bring many in<g ref="char:EOLhyphen"/>ſtances. And firſt, how many thoughts are there in the <hi>Odyſses;</hi> which, without doubt, are but the continuation of ſe<g ref="char:EOLhyphen"/>veral misfortunes mentioned in the <hi>Iliads,</hi> and ſet down in this laſt piece as ſo many effects of the <hi>Trojan</hi> war. And beſides many accidents in the <hi>Iliads</hi> are bewayl'd by the Heroes of the <hi>Odyſſes,</hi> as diſaſters well known and of a long date. The <hi>Odyſ<g ref="char:EOLhyphen"/>ſes</hi> ought therefore properly to be called the Epilogue to the <hi>Iliads</hi>
+                  <q>
+                     <l>
+                        <note n="*" place="bottom">Theſe are the words of <hi>Neſtor</hi> in the <hi>Odyſſes.</hi>
+                        </note> There the great <hi>Ajax</hi> lies, <hi>Achilles</hi> there,</l>
+                     <l>There fell his Godlike and much valued friend,</l>
+                     <l>There my dear Son <hi>Antilochus</hi> took end.</l>
+                  </q>
+                  <pb n="38" facs="tcp:56950:30"/>
+Now then I am of opinion, that the <hi>Iliads,</hi> which <hi>Homer</hi> wrote when his fancy was at the high<g ref="char:EOLhyphen"/>eſt, are full of life and action: Whereas for the moſt part, the <hi>Odyſſes</hi> conſiſt of tedious ſpee<g ref="char:EOLhyphen"/>ches and relations, the certain ſymptoms of a feeble and de<g ref="char:EOLhyphen"/>cayed fancy. So that in reſpect of this laſt, I can only compare him to the ſeting Sun, which ſtill retains the ſame ſplendor, but abates of its heat. To be ſhort, It has not that Harmony or loftineſs which is ſo delicate<g ref="char:EOLhyphen"/>ly ſpread throughout the whole <hi>Iliads;</hi> it wants that variety of paſſionate and fine thoughts, ſo curiouſly heap'd one upon ano<g ref="char:EOLhyphen"/>ther. You will not find the ſame force, and (if I may ſo ſay) fluency of language, and live<g ref="char:EOLhyphen"/>lyneſs of deſcription. It may be called the ebb of his ſancy,
+<pb n="39" facs="tcp:56950:30"/>
+which, like the unconſtant Ocean, ſometimes ſhrinks up and forſakes its Banks. At every turn he deviats into ficti<g ref="char:EOLhyphen"/>ons, and moſt incredible fables. Not but that his deſcriptions of Tempeſts, <hi>
+                     <g ref="char:V">Ʋ</g>lyſses's</hi> adventures with <hi>Polyphemus,</hi> and ſome few more, are very excellent. Yet after all, though this weak<g ref="char:EOLhyphen"/>neſs be in <hi>Homer,</hi> 'tis ſtill <hi>Ho<g ref="char:EOLhyphen"/>mer</hi>'s weakneſs. I have been the longer upon this matter to let you ſee, (as I have already ſaid) That a lofty and manly Genius, when once the heat of natural parts abates, does now and then dwindle into meer dotage, and fooleries: amongſt which may be reckon'd that of <hi>Aeolus</hi>'s ſhutting up the Winds; and <hi>
+                     <g ref="char:V">Ʋ</g>lyſses</hi> Companions Metamor<g ref="char:EOLhyphen"/>phos'd into <hi>Swine.</hi> Whom <hi>Zoilus</hi> pleaſantly calls <hi>little weeping
+<pb n="40" facs="tcp:56950:31"/>
+Piggs.</hi> Such another is that of <hi>Doves</hi> feeding <hi>Jupiter</hi> like a young <hi>Pigeon,</hi> or <hi>
+                     <g ref="char:V">Ʋ</g>lyſses</hi>'s Po<g ref="char:EOLhyphen"/>verty, Who liv'd ten days after his Shipwrack without eating: and thoſe abſurd fictions of the murther of <hi>Penelope</hi>'s wooers. For the moſt that can be ſaid in the commendation of ſuch Chimeras is, that they are witty and pleaſant inventions. Or if you will, you may call them the dreams of <hi>Jupiter.</hi> That which made me ſpeak of the <hi>Odyſſes,</hi> was to ſhew you, that great Poets, and other fa<g ref="char:EOLhyphen"/>mous writers, wanting ſtrength and vigour to be pathetical, grow dull and inſipid. Hence is it, that when <hi>Homer</hi> deſcribes how <hi>Penelope</hi>'s ſuiters liv'd in <hi>
+                     <g ref="char:V">Ʋ</g>liſſes</hi>'s houſe, the whole de<g ref="char:EOLhyphen"/>ſcription is a ſort of Comedy, wherein the characters of ſo
+<pb n="41" facs="tcp:56950:31"/>
+many different perſons are drawn.</p>
+            </div>
+            <div n="8" type="chapter">
+               <head>
+                  <hi>CHAP. VIII.</hi> Of Loftineſs drawn from Cir<g ref="char:EOLhyphen"/>cumſtances.</head>
+               <p>NOw let us conſider what other means may be found out to advance Lofti<g ref="char:EOLhyphen"/>neſs. Certain it is, that nothing happpens in this World, which is not attended by ſome certain Circumſtances; a choice there<g ref="char:EOLhyphen"/>fore of the moſt conſiderble, drawn together into a well-proportion'd body, will be of no little advantage; which is the reaſon, that when <hi>Sapho</hi> would expreſs the diſorders of <hi>Love,</hi> ſhe calls to mind all the accidents which are either
+<pb n="42" facs="tcp:56950:32"/>
+inherent, or conſequential to this Paſſion, but ſingles out ſuch chiefly, as declare the exceſ<g ref="char:EOLhyphen"/>ſive violence thereof
+<q>
+                     <l>Bleſs'd is the man, thrice bleſs'd who ſits by thee,</l>
+                     <l>Enjoys thy Tongue's ſoft melting harmony,</l>
+                     <l>Sees ſilent joys ſit ſmiling on thy brow;</l>
+                     <l>The Gods themſelves do not ſuch pleaſure know.</l>
+                     <l>When thou appear'ſt, ſtreight at my heaving heart</l>
+                     <l>My bloud boils up, and runs through ev'ry part.</l>
+                     <l>Into ſuch Extaſies of Joy I'm thrown,</l>
+                     <l>My voice forſakes me, and I'm ſpeechleſs grown;</l>
+                     <l>A heavy darkneſs hovers o'r my eyes,</l>
+                     <l>
+                        <pb n="43" facs="tcp:56950:32"/>From my pale cheeks the coward colour flies:</l>
+                     <l>Intranc'd I lie, panting for want of breath,</l>
+                     <l>And ſhake, as in the Agony of death.</l>
+                     <l>Yet ſince I'm wretched, I muſt dare, <hi>&amp;c.</hi>
+                     </l>
+                  </q>
+               </p>
+               <p>Don't you wonder how ſhe brings together all theſe diffe<g ref="char:EOLhyphen"/>rent things, the Soul, Body, Speech, Looks, <hi>&amp;c.</hi> as if they had been ſo many diſtinct perſons juſt expiring? Obſerve how ſtrangely ſhe is toſs'd too and fro; now ſhe freezes, then ſhe burns; now is out of her wits, then again grows ſober; now at the very point of death: In a word, her Soul does not ſo much ſeem the ſeat of one ſingle Paſſion, as the general Ren<g ref="char:EOLhyphen"/>dezvouze
+<pb n="44" facs="tcp:56950:33"/>
+of all; and ſo is it with all thoſe who love. By this it may appear, how much a fit application of choice Cir<g ref="char:EOLhyphen"/>cumſtances tends to the orna<g ref="char:EOLhyphen"/>ment of Speech. Thus <hi>Homer,</hi> when he would deſcribe a Storm, takes care not to omit any one frightful accident. The Author of the Poem concern<g ref="char:EOLhyphen"/>ing the<note place="margin">A People of <hi>Scythia.</hi>
+                  </note> 
+                  <hi>Arimaſpians</hi> thought to be wonder<g ref="char:EOLhyphen"/>ful lofty, when he ſaid,
+<q>
+                     <l>
+                        <g ref="char:V">Ʋ</g>nheard of madneſs, and strange prodigy</l>
+                     <l>Of giddy men! whom tottering Veſſels pleaſe;</l>
+                     <l>They quit the Shore to float upon the Seas:</l>
+                     <l>
+                        <pb n="45" facs="tcp:56950:33"/>Through trackleſs ways and un<g ref="char:EOLhyphen"/>known paths they go,</l>
+                     <l>Repoſe and gentle rest they ne<g ref="char:EOLhyphen"/>ver know,</l>
+                     <l>But take much pains how to increaſe their woe.</l>
+                     <l>Their eyes on Heav'n, their thoughts on Ships are fix'd:</l>
+                     <l>To deaf and unregarded Gods they pray, <hi>&amp;c.</hi>
+                     </l>
+                  </q>
+               </p>
+               <p>What man cannot perceive, that this is rather the flouriſh<g ref="char:EOLhyphen"/>ing of a weak Pencil, than the true paint of an Artiſt? Let's ſee then what <hi>Homer</hi> ſays, and par<g ref="char:EOLhyphen"/>ticularly in this place.</p>
+               <q>
+                  <l>So angry Billows riſe with all their force,</l>
+                  <l>To daſh against the Barque that ſtops their courſe;</l>
+                  <l>Amidſt the tatter'd Sails Winds loudly roar,</l>
+                  <l>
+                     <pb n="46" facs="tcp:56950:34"/>The Sea with hoary froth is co<g ref="char:EOLhyphen"/>ver'd o'er;</l>
+                  <l>The fearful Pilot, now his Art is gone,</l>
+                  <l>Sees with each wave his Fate come rolling on.</l>
+               </q>
+               <p>
+                  <hi>Aratus</hi> has endeavoured to inhance this laſt Verſe, in ſay<g ref="char:EOLhyphen"/>ing,
+<q>A little ſlender Plank has ſav'd their lives.</q>
+But inſtead of improving the thought, he has made it flat and little, which was before very terrible, and thinking to ſum up all that can be ſaid to ex<g ref="char:EOLhyphen"/>preſs danger in theſe words,
+<q>(A little ſlender Plank has ſav'd their lives)</q>
+                  <pb n="47" facs="tcp:56950:34"/>
+he has rather impaired than added to the thought. <hi>Homer</hi> does not make the Sailors once onely in danger of being drown'd, but draws 'em ſub<g ref="char:EOLhyphen"/>ject to the rage of every threat<g ref="char:EOLhyphen"/>ning wave. And I ſee, methinks, in his expreſſions the very Pi<g ref="char:EOLhyphen"/>cture of a Tempeſt. <hi>Archilocus</hi> took the ſame meaſures in his deſcription of a Shipwrack, as likewiſe did <hi>Demosthenes,</hi> where he ſpeaks of the confuſi<g ref="char:EOLhyphen"/>on the <hi>Athenians</hi> were in at the newi of <hi>Helice</hi>'s being taken: theſe are his words, <note n="*" place="margin">This Speech is ſo long, that our Author has thought <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>o omit it.</note> 
+                  <hi>It was now very late,</hi> &amp;c. Both theſe have been very di<g ref="char:EOLhyphen"/>ligent to make choice of the beſt and moſt pertinent circumſtances, and avoid nothing more, than the inſerting ſuperfluous and pe<g ref="char:EOLhyphen"/>dantick
+<pb n="48" facs="tcp:56950:35"/>
+particulars, which muſt neceſſarily ſpoil all, and are like Morter and Rubbiſh any way heap'd together to raiſe a Foundation.</p>
+            </div>
+            <div n="9" type="chapter">
+               <head>
+                  <hi>CHAP. IX.</hi> Of Amplification.</head>
+               <p>AMongſt thoſe things that conduce to the Loftineſs and Excellency of Speech, we may very well reckon <hi>Ampli<g ref="char:EOLhyphen"/>fication.</hi> For when the nature of the Subject we treat of, or any other matter we debate, requires large and full Periods, conſiſting of many Sentences, we may ſo draw 'em out, that they ſhall enforce one another, and mount gradually to a juſt heighth of Greatneſs; and this
+<pb n="49" facs="tcp:56950:35"/>
+ſerves either to ſpin out a Speech, to explain and ſtreng<g ref="char:EOLhyphen"/>then any Action, or to carry on and methodize a Paſſion. So that <hi>Amplification</hi> may be di<g ref="char:EOLhyphen"/>vided into many parts, but it is to be premis'd, that no one of 'em can be compleat without Loftineſs. Unleſs when we would undervalue and ſpeak ſlightingly of any thing, or en<g ref="char:EOLhyphen"/>deavour to move pity. In all other caſes, if we ſtrip <hi>Ampli<g ref="char:EOLhyphen"/>fication</hi> of what ever is great and lofty, we take away its very eſſence; and, in a word, when once it wants that prop to lean upon, it grows weak and tottering. Now then, for better diſtinction, we will ſhew the difference between this, and that which we, have lately mentioned in the precedent Chapter, and which (as I have
+<pb n="50" facs="tcp:56950:36"/>
+already obſerved) is nothing but a Collection of choice Cir<g ref="char:EOLhyphen"/>cumſtances, to the end we may ſee whether <hi>Amplification</hi> in general differs from Loftineſs.</p>
+            </div>
+            <div n="10" type="chapter">
+               <head>
+                  <hi>CHAP. X.</hi> What Amplification is.</head>
+               <p>I Cannot by any means hear<g ref="char:EOLhyphen"/>ken to ſome men, who define <hi>Amplification</hi> to be, <hi>A certain Speech which greatens and en<g ref="char:EOLhyphen"/>largeth the Subject matter.</hi> This Definition may as well agree with the being Lofty, Patheti<g ref="char:EOLhyphen"/>cal, or Figurative; all which give the ſtamp of Greatneſs to what ever they treat of: Yet are they very much unlike. And firſt, Loftineſs conſiſts in the Nobleneſs, but Amplification
+<pb n="51" facs="tcp:56950:36"/>
+in the Plenty of Words. The firſt may oftentimes be found in a ſingle thought, whereas the latter depends wholly upon the abundancy of expreſſion, and thus therefore to be de<g ref="char:EOLhyphen"/>fined. <hi>Amplification is a mul<g ref="char:EOLhyphen"/>tiplying of Words, drawn from the particular Circumſtances and Heads of the matter in hand, to enlarge the Speech, and confirm what we have before ſaid.</hi> And herein Argument and Amplifi<g ref="char:EOLhyphen"/>cation differ; that the one is made uſe of to prove that point, which th'other doth but ſtretch out and augment.<note place="margin">In this place our Author is very de<g ref="char:EOLhyphen"/>fective, <hi>&amp;c.</hi>
+                  </note> The ſame difference of Loftineſs in my mind is there be<g ref="char:EOLhyphen"/>tween <hi>Demoſthenes</hi> and <hi>Cicero,</hi> as far as we <hi>Greeks</hi> are able to judge of a <hi>Latin</hi> Author; for <hi>Demosthenes</hi>'s ex<g ref="char:EOLhyphen"/>cellence
+<pb n="52" facs="tcp:56950:37"/>
+lies in being conciſe and pithy; <hi>Cicero</hi>'s, on the other hand, in being very co<g ref="char:EOLhyphen"/>pious. The <hi>Grecian,</hi> by reaſon of that violence and fierceneſs, wherewith he rages through<g ref="char:EOLhyphen"/>out, may be liken'd to a Whirl-wind or Thunder-bolt, and the <hi>Roman</hi> to a Confia<g ref="char:EOLhyphen"/>gration, that ſhoots its head up into the air, and diſperſes its flames round about, which work different effects accor<g ref="char:EOLhyphen"/>ding to the diverſity of Places, yet prey upon, and feed them<g ref="char:EOLhyphen"/>ſelves with all manner of things they can reach. But of this, you are beſt able to judge. I confeſs, <hi>Demosthenes</hi> his Lof<g ref="char:EOLhyphen"/>tineſs, and vehemency of ex<g ref="char:EOLhyphen"/>preſſion, is much the fitteſt to ſurprize and ſtorm; but a va<g ref="char:EOLhyphen"/>riety, doubtleſs, (if I may ſo ſay) is that which caſts a dew
+<pb n="53" facs="tcp:56950:37"/>
+over the minds of the Audi<g ref="char:EOLhyphen"/>ence, and is proper in Com<g ref="char:EOLhyphen"/>mon Places, Digreſſions, Per<g ref="char:EOLhyphen"/>orations, and what-ever is in <hi>genere demonſtrativo,</hi> (that is) demonſtrative; as likewiſe in Hiſtory, Treatiſes of Natural Philoſophy, and many more ſuch like pieces.</p>
+            </div>
+            <div n="11" type="chapter">
+               <pb n="54" facs="tcp:56950:38"/>
+               <head>
+                  <hi>CHAP. XI.</hi> Of Imitation.</head>
+               <p>TO return to the matter in hand, <hi>Plato's</hi> ſtile, tho ſoft and eaſy, is never the leſs Majeſtical; which, if you have ever read his <hi>Politiques,</hi> you muſt needs acknowledg. <hi>Theſe unhappy men</hi> (ſays he) <hi>who know not what 'tis to be Wiſe, or Virtuous, but ſpend their time in Revelling and Feaſting, grow daily worſe and worſe, and are out of the way all their life time; Virtue has no attractive Charmes over them, they never open their Eyes to look after her, nor in<g ref="char:EOLhyphen"/>deed do they ever taſt of any true and ſollid pleaſure; but like Beaſts with their looks fixt al<g ref="char:EOLhyphen"/>wayes
+<pb n="55" facs="tcp:56950:38"/>
+on the Earth; they think of nothing elſe, then eating, drink<g ref="char:EOLhyphen"/>ing, and ſatisfying their brutall appetites, and in the heat of their riotting, they quarrel and fight with one another, till in the end they periſh by their inſatiable glut<g ref="char:EOLhyphen"/>tony.</hi> This <hi>Philoſopher</hi> has point<g ref="char:EOLhyphen"/>ed out another way (if we will follow it) which leads to lof<g ref="char:EOLhyphen"/>tineſs, and what is it? 'tis the imitation and emulation of fa<g ref="char:EOLhyphen"/>mous Poets and other Writters, who have gone before us; and this is the mark we ought daily to level at: for ſome there are, who ſeem to be carried away with a Divine Inſpiration, as 'tis ſaid <hi>Pythia Apollo's Preiſteſs</hi> was, when placed upon the Tripo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s, or Golden Table in the Temple; under which (they tell us) there is a certain Gap in the Earth, through which is breath<g ref="char:EOLhyphen"/>ed
+<pb n="56" facs="tcp:56950:39"/>
+a Vaporous and Celeſtial air, filling her with Divine in<g ref="char:EOLhyphen"/>ſtinct, whereby ſhe declares the Oracles. So the moſt remark<g ref="char:EOLhyphen"/>able excellencies in the writings of ancient Authors, are as ſo many Sources, whence a Divine greatneſs ariſes, and overflows the Soules of all their imitators; animating them with a more then natural heat; till they become tranſported with the extacie of others. Therefore we ſee, how much <hi>Herodotus,</hi> and (before him) <hi>Stefichorus</hi> and <hi>Arthilocus</hi> ſtrove to imitate <hi>Homer,</hi> but none of them comes ſo near as <hi>Plato,</hi> for he has drain'd whole Rivulets out of that Fountain, and turn'd them into his own Channel. Whereof I could give many inſtances, had not <hi>Amoni<g ref="char:EOLhyphen"/>as</hi> afforded enough already; yet after all, we ought not to look
+<pb n="57" facs="tcp:56950:39"/>
+upon this as a Theft, but a de<g ref="char:EOLhyphen"/>licate form, which he himſelf has moulded out of the Subſtance of anothers inventions. And in my opinion, throughout his whole Body of <hi>Philoſophy,</hi> he never ſays ſo fine things, as when he digreſſes into Poetical expreſſi<g ref="char:EOLhyphen"/>ons; and like a daring Rivall, diſputes the Prize with <hi>Homer</hi> himſelf, who has from all ages been the allowed Champion of the World. And though per<g ref="char:EOLhyphen"/>haps he may ſeem to do it with too much heat; and, as we ſay fire and Sword, yet that hurts not, ſince according to <hi>Heſiod,</hi>
+                  <q>A noble envy do's avail Man<g ref="char:EOLhyphen"/>kind.</q>
+And is it not a commendable thing, and worthy of a gene<g ref="char:EOLhyphen"/>rous Soul, to contend for Ho<g ref="char:EOLhyphen"/>nour
+<pb n="58" facs="tcp:56950:40"/>
+and Victory with our Pre<g ref="char:EOLhyphen"/>deceſſors? eſpecially when to be vanquiſhed is no diſcredit.</p>
+            </div>
+            <div n="12" type="chapter">
+               <head>
+                  <hi>CHAP. XII.</hi> Of the way of imitation.</head>
+               <p>WHen ever we undertake any thing that ought to be great and lofty, 'tis very neceſſary we ſhould reflect and conſider with our ſelves, what <hi>Homer</hi> would have ſaid on the like occaſion. Or if it be Hiſto<g ref="char:EOLhyphen"/>ry, what way <hi>Plato, Demoſthe<g ref="char:EOLhyphen"/>nes,</hi> or <hi>Thucydides</hi> would have taken, that we may follow the ſame; for ſuch great men being ſet before our eyes to be cop<g ref="char:EOLhyphen"/>pied, do often raiſe our fancies to as great a height, as the Idea which we conceive of their
+<pb n="59" facs="tcp:56950:40"/>
+Genius: But above all, we ought thus to argue with our ſelves, how would <hi>Homer</hi> or <hi>Demoſthenes</hi> approve of this, if they heard it; or what would they ſay of me? 'Twill certainly be very advantagious to us, if we ſeriouſly fancy to our ſelves that we are giving an Account of our writings, at the high Tribunal, or on the publique Theatre, where we have ſuch Learned Judges for our audi<g ref="char:EOLhyphen"/>ence. But there is yet a ſtron<g ref="char:EOLhyphen"/>ger motive to excite us to this ſelf-examination, and that is, to conſider what after ages will ſay of our writings. For if a man grows ſo jealous of him<g ref="char:EOLhyphen"/>ſelf, as to think his works will not ſurvive him, his fancy can produce nothing but what is ſhapeleſs and abortive; nor will he take pains in that, which he
+<pb n="60" facs="tcp:56950:41"/>
+he never expects ſhould be long liv'd.</p>
+            </div>
+            <div n="13" type="chapter">
+               <head>
+                  <hi>CHAP. XIII.</hi> Of Fancies.</head>
+               <p>FAncies (and as others call 'em) <hi>Conceits or Fictions,</hi> do very much contribute to the magnificence or vigour of ſpeech. This word <hi>Fancy,</hi> in general is taken for any no<g ref="char:EOLhyphen"/>tion or conception, any how repreſenting a thing to the mind, able to beget expreſſion; but in a more particular and ſtrict ſence, for that which we ſay, when by an Euthuſiaſm or other ſuch like extraordinary notion, we ſeem to ſee the things we ſpeak of, and ſet 'em before the eyes of thoſe who
+<pb n="61" facs="tcp:56950:41"/>
+hear us. I need not tell you that Fancies in <hi>Rhetorick,</hi> are different from thoſe in <hi>Poetry.</hi> For that in verſe they are uſed to aſtoniſh and ſurpriſe, but in proſe to manifeſt and convince. Yet in this they agree, that both are moving.</p>
+               <q>
+                  <l>
+                     <note n="*" place="bottom">Theſe are the words of <hi>Oreſtes</hi> in <hi>Euripides</hi>
+                     </note>Hold cruel mother, hence with the Fiends of night;</l>
+                  <l>Remove the diſmal object from my ſight:</l>
+                  <l>They come, they come, my puniſh<g ref="char:EOLhyphen"/>ment draws near,</l>
+                  <l>Fierce hiſſing <hi>Serpents,</hi> on their heads appear.</l>
+               </q>
+               <p>And in another place;
+<q>Where ſhall I goe, ſhee comes, ſhe's there, I die:</q>
+                  <pb n="62" facs="tcp:56950:42"/>
+Here the Poet did not ſee the Furies, but he gives ſo lively a repreſentation of them, that he almoſt makes his Auditors be<g ref="char:EOLhyphen"/>lieve they do: and though I cannot well ſay how good his Tallent is in expreſſing the other paſſions, yet in thoſe two of Love and Fury (which are his Maſter-piece) he is very ex<g ref="char:EOLhyphen"/>cellent; not but that he has a bold ſtroke in many other things. For notwithſtanding his fancy is not naturally high, yet in weighty ſubjects, he ſcrues it up to a Tragical great<g ref="char:EOLhyphen"/>neſs; not unjuſtly therefore, may we ſay that of him, which the Poet do's of the Lyon.</p>
+               <q>
+                  <l>When threatning dangers and the foe he ſpies,</l>
+                  <l>He calls forth all his rage into his eyes,</l>
+                  <l>
+                     <pb n="63" facs="tcp:56950:42"/>And with his Tail laſhes his foaming Sides, <hi>&amp;c.</hi>
+                  </l>
+               </q>
+               <p>Now for a proof of what we have ſaid, let us have recourſe to that place, where the <hi>Sun</hi> be<g ref="char:EOLhyphen"/>ing about to deliver the reins of his <hi>Horſes</hi> into <hi>Phaeton</hi>'s hand, gives the young <hi>Chario<g ref="char:EOLhyphen"/>teer</hi> theſe directions.</p>
+               <q>
+                  <l>—take care,</l>
+                  <l>They force you not through the ſcorch'd Libian-Air.</l>
+                  <l>There in the tracks no moystning ſhowers lay,</l>
+                  <l>To cool the Chariot in its fiery way.</l>
+               </q>
+               <p>And going on,
+<q>
+                     <l>Keep to the right, and through the road that leads</l>
+                     <l>To the ſeven Plyades, direct the Steeds.</l>
+                     <l>
+                        <pb n="64" facs="tcp:56950:43"/>This ſaid, the raw and new made Coachman took</l>
+                     <l>The Reyns, and the high mettl'd <hi>Horſes</hi> ſtrook.</l>
+                     <l>Forth then they ſpring, and when their guide they knew,</l>
+                     <l>Swifter then Lightning through the Skies they flew.</l>
+                     <l>Mean while his Father, full of fear and pain,</l>
+                     <l>Sees 'em run headlong o're the Heavenly plain.</l>
+                     <l>Then he purſues, then teaches him the way,</l>
+                     <l>Go here he cries, come back, turn hither, ſtay.</l>
+                  </q>
+Who would not ſay, that the very ſoul of the Poet, mounted in the Coach-box with <hi>Phaeton,</hi> partook of all his dangers, and flew in the Air with the <hi>Horſes;</hi> for how otherwiſe is it poſſible he could have deſcribed it ſo
+<pb n="65" facs="tcp:56950:43"/>
+lively. Not unlike to this is that of <hi>Caſsandra,</hi>
+                  <q>But O brave <hi>Trojans, &amp;c.</hi>
+                  </q>
+                  <hi>Aeſchylus</hi> too, has for the moſt part a Noble and Heroical fancy, as may appear in his <hi>Tragedy,</hi> intituled the <hi>Seven be<g ref="char:EOLhyphen"/>fore Thebes.</hi> When a <hi>Courier</hi> bringing <hi>Eteocles</hi> the news of thoſe ſeven <hi>Captains,</hi> that made a joynt and ſolemn Oath to kill themſelves, do's thus deliver his Meſſage.</p>
+               <q>
+                  <l>Seven brave and warlike Captains of the field,</l>
+                  <l>When they had ſlain a <hi>Bullock</hi> on a ſhield,</l>
+                  <l>And had imbru'd their hands i'th reeking gore,</l>
+                  <l>By Fear, <hi>Bellona,</hi> and by <hi>Mars</hi> they ſwore, <hi>&amp;c.</hi>
+                  </l>
+               </q>
+               <p>
+                  <pb n="66" facs="tcp:56950:44"/>But when this Poet, do's too much force himſelf to riſe, he often falls into harſh and un<g ref="char:EOLhyphen"/>couth expreſſions, as alſo does <hi>Euripides.</hi> For example in <hi>Aeſchylus,</hi> the <hi>Pallace</hi> of <hi>Ly<g ref="char:EOLhyphen"/>churgus</hi> falls into a rage at the ſight of <hi>Bacchus.</hi>
+               </p>
+               <q>The <hi>Pallace</hi> bellow'd at the ſight of him.</q>
+               <p>
+                  <hi>Euripides</hi> hath made uſe of this very thought, though in ano<g ref="char:EOLhyphen"/>ther way, and ſomewhat ſof<g ref="char:EOLhyphen"/>tened.</p>
+               <q>The bellowing <hi>Mountains</hi> eccho'd to their ſhouts.</q>
+               <p>How excellent <hi>Sophocles</hi> is in his deſcriptions, let that wit<g ref="char:EOLhyphen"/>tneſs which he hath given us of <hi>Oedipus</hi>'s dying, and bury<g ref="char:EOLhyphen"/>ing
+<pb n="67" facs="tcp:56950:44"/>
+himſelf in a moſt prodigi<g ref="char:EOLhyphen"/>ous Tempeſt. As likewiſe that other of <hi>Achilles</hi>'s apparition on his Tomb, when the <hi>Grecians</hi> were weighing Anchor. Yet as to this laſt, I queſtion whether any one hath out done <hi>Symon<g ref="char:EOLhyphen"/>ides.</hi> But 'twere an endleſs, and almoſt impoſſible thing, to in<g ref="char:EOLhyphen"/>ſtance in every particular ex<g ref="char:EOLhyphen"/>ample that is to this purpoſe, To return therefore to what we were ſaying; Fancies in Poetry are generally full of fabulous and incredible accidents: whereas in Rhetorick, they are then moſt commendable, when they repreſent a thing as in it ſelf it is; and make the truth thereof moſt perſpicuous. For a Poetical and fabulous inven<g ref="char:EOLhyphen"/>tion in proſe, cauſes imperti<g ref="char:EOLhyphen"/>nent digreſſions, and conſe<g ref="char:EOLhyphen"/>quently becomes very abſurd.
+<pb n="68" facs="tcp:56950:45"/>
+Yet nevertheleſs 'tis that which the Orators of theſe preſent times are paſſionately enamou<g ref="char:EOLhyphen"/>red with. Who thinking there<g ref="char:EOLhyphen"/>by to be accounted great, talk of the furies with as much heat as any Tragedian of 'em all. Not conſidering, that when <hi>Oreſtes</hi> ſays in <hi>Euripides.</hi>
+               </p>
+               <q>
+                  <l>Thou that wou'dſt plunge me into Hell, give o're</l>
+                  <l>Thy cruel plagues, and torture me no more.</l>
+               </q>
+               <p>'Tis his madneſs that makes him imagine all this. What then is the effect of fancies in <hi>Rheto<g ref="char:EOLhyphen"/>rick?</hi> 'tis that (beſides ſeveral other properties) they beautifie and enliven: ſo that being arti<g ref="char:EOLhyphen"/>ficially interwoven with argu<g ref="char:EOLhyphen"/>ments, they do not perſwade only, but overcome and com<g ref="char:EOLhyphen"/>mand the audience.</p>
+               <p>
+                  <pb n="69" facs="tcp:56950:45"/>
+                  <hi>If</hi> (ſays a certain Orator) <hi>there ſhould be a great noiſe at the Seſſions houſe, and ſtrait one coms and ſays the Priſoners have broak Goal; there is no one old man, though never ſo decripid, or young man, though never ſo careleſs, but what will endeavour to apprehend 'em again; and if at that Juncture of time, they ſhou'd be ſhew'd the Author of that disturbance, alas poor wretch! he muſt expect to have his brains beat out by the rabble, before he can be heard to make any de<g ref="char:EOLhyphen"/>fence.</hi>
+               </p>
+               <p>
+                  <hi>Hyperides</hi> in that Speech, wherein he gave an account of the order he had caus'd to be made, after the defeat at <hi>Chi<g ref="char:EOLhyphen"/>ronea,</hi> for the delivery of the Priſoners; took this way. <hi>'Tis not</hi> (ſays he) <hi>an Orator which en<g ref="char:EOLhyphen"/>acted this Law, but the Battle and
+<pb n="70" facs="tcp:56950:46"/>
+defeat at</hi> Chironea. At the ſame time that he gave reaſons for what he ſaid, he made uſe of a delicate fancy, wherewith he did more then perſwade: for it being natural to us to mind that moſt which makes the greateſt ſhew; our thoughts are taken up with a pleaſing fancy, which coming in at the middle of the Argu<g ref="char:EOLhyphen"/>ment, does divert us from a ſeri<g ref="char:EOLhyphen"/>ous examination of the force and weight thereof. Nor ought we to wonder at it, ſince expe<g ref="char:EOLhyphen"/>rience teaches us, that when two things are mixt together, that which is of the greateſt, draws to it ſelf the force and virtue of the other. But enough of this ſort of loftineſs which conſiſts in the thoughts, and (as I have already ſaid) proceeds either from <hi>the greatneſs of the Soul, Imitation, or Fancy.</hi>
+               </p>
+            </div>
+            <div n="14" type="chapter">
+               <pb n="71" facs="tcp:56950:46"/>
+               <head>
+                  <hi>CHAP. XIV.</hi> Of Figures, and chiefly that called Apoſtrophe.</head>
+               <p>NOw according to our Me<g ref="char:EOLhyphen"/>thod, we come to ſpeak of Figures, for (as I have al<g ref="char:EOLhyphen"/>ready ſaid) they are no ſmall conſtituent part of loftineſs, if rightly managed. But 'twill require a long, if not infinite deal of time, to take an exact view of every Figure that is proper in Speech. Wherefore it ſhall be ſufficient for us, to touch upon the moſt principle, and moſt immediately requiſite to the perfection of Loftineſs. <hi>Demosthenes</hi> would juſtifie his conduct, and prove to the <hi>Athenians,</hi> that they did not
+<pb n="72" facs="tcp:56950:47"/>
+amiſs in giving Battle to <hi>Philip.</hi> What in that caſe had been the direct way? <hi>You have not done amiſs, Sirs,</hi> (he might have ſaid) <hi>in hazarding your lives for the liberty and ſafety of Greece, and of this we have Do<g ref="char:EOLhyphen"/>mesticall, and undeniable ex<g ref="char:EOLhyphen"/>amples, for we cannot ſay thoſe men have been too blame, who fought for the ſame cauſe, upon the plains of</hi> Marathon, <hi>at</hi> Sallamis, <hi>or before</hi> Plateae. This he might have ſaid, but he has taken a clear different way; and of a ſudden (as if inſpired by ſome God, or poſſeſt with the Soul of <hi>Apollo</hi> himſelf) he ſwears by thoſe valliant Defenders of Greece, <hi>no Sirs no! You have not done amiſs; I ſwear by all the Ghoſts of thoſe brave Men, who dyed Fighting for the ſame Cauſe upon the Plains of Mara<g ref="char:EOLhyphen"/>thon,</hi> &amp;c.</p>
+               <p>
+                  <pb n="73" facs="tcp:56950:47"/>Thus by this Oath, (which I here call <hi>Apoſtrophe</hi>) he dei<g ref="char:EOLhyphen"/>ſies thoſe ancients; and conſe<g ref="char:EOLhyphen"/>quently ſhewes, that all who die in the like Cauſe, are to be eſteem'd as ſo many Gods, by whom we ought to Swear. Here inſtead of a natural way of arguing, making uſe of this ſtrong, and pathetical manner of affirming by Oathes, ſo ex<g ref="char:EOLhyphen"/>traordinary, new, and withall credible; he infuſes into his Judges, the very minds of thoſe Illuſtrious Men that died, as an Antidote to expel all the venom of their own; here, by his commendations, he per<g ref="char:EOLhyphen"/>ſwades them to think, they ought to be as proud of the Battel they loſt againſt <hi>Philip,</hi> as thoſe Victories which they got at <hi>Marathon</hi> and <hi>Sallamis;</hi> and by all theſe different means,
+<pb n="74" facs="tcp:56950:48"/>
+drawn into one ſingle Figure, he prevailes with them to be of his Opinion. Yet ſome per<g ref="char:EOLhyphen"/>haps will pretend; that <hi>Eupolis</hi> is the firſt who taught this way, when he ſaies,
+<q>
+                     <l>Their joy no more, ſhall fill my breſt with care,</l>
+                     <l>By my great Fight, at <hi>Marra<g ref="char:EOLhyphen"/>thon</hi> I ſwear.</l>
+                  </q>
+But to ſwear down-right, is not to be commended, or account<g ref="char:EOLhyphen"/>ed great; we ought to conſider how, where, upon what occa<g ref="char:EOLhyphen"/>ſion, and to what purpoſe we do it. So then, that of this Poet, who ſpoke to the <hi>Athe<g ref="char:EOLhyphen"/>nians,</hi> at that time happy, and not needing to be comforted, is nothing but a bare Oath: be<g ref="char:EOLhyphen"/>ſides, he do's not ſwear by ſuch great and Immortal men as <hi>De<g ref="char:EOLhyphen"/>moſthenes</hi>
+                  <pb n="75" facs="tcp:56950:48"/>
+do's, nor endeavour with him to kindle in the breſts of the <hi>Athenians,</hi> thoughts worthy the bravery of their Anceſtors; ſeeing that inſtead of Swearing by the names of thoſe who Fought, he Swears by the Fight it ſelf; a thing altogether inanimate. On the contrary, the Oath in <hi>Demo<g ref="char:EOLhyphen"/>ſthenes,</hi> was to Encourage the <hi>Athenians,</hi> who were juſt be<g ref="char:EOLhyphen"/>fore beaten, that from hence<g ref="char:EOLhyphen"/>forward, they ſhould not look upon the loſs of the Battel at <hi>Chironea,</hi> to be any misfortune. So that (as is already ſaid) he proves to them by reaſon that they have not done ill, he gives them an example, confirms them by Oathes, commends them, excites them to a War againſt <hi>Phillip,</hi> and all this with one ſingle Figure. But for that it
+<pb n="76" facs="tcp:56950:49"/>
+might be thus objected to our Orator; you ſpeak of a Battel loſt againſt <hi>Phillip,</hi> while you mannaged the Affairs of the Common Wealth, and at the ſame time, Swear by the Vict<g ref="char:EOLhyphen"/>ory our Anceſtors have won. He has therefore taken great care to regulate his Expreſſions, and make uſe of ſuch only as are moſt neceſſary for his pur<g ref="char:EOLhyphen"/>poſe; to ſhew, that upon all occaſions, though never ſo tranſ<g ref="char:EOLhyphen"/>porting we ought to carry our ſelves with equal ſobriety and deliberation. Wherefore when he Speaks of the Fight their Anceſtors had by Land at <hi>Mar<g ref="char:EOLhyphen"/>athon,</hi> by Sea at <hi>Salamis,</hi> and thoſe other near <hi>Artemis</hi> and <hi>Plateae,</hi> he forbears to ſay, how Victorious they were; paſ<g ref="char:EOLhyphen"/>ſing by the happy events of thoſe Battels, as well as the
+<pb n="77" facs="tcp:56950:49"/>
+unhappy ſucceſs of that at <hi>Chi<g ref="char:EOLhyphen"/>ronea;</hi> and to prevent all Ob<g ref="char:EOLhyphen"/>jections, he ſayes, <hi>thoſe O Aeſ<g ref="char:EOLhyphen"/>chynes whom we have lost in this Engagement are as much to be called the Defenders of their Country, as thoſe whom fortune has made Victorious.</hi>
+               </p>
+            </div>
+            <div n="15" type="chapter">
+               <head>
+                  <hi>CHAP. XV.</hi> That Figures ought neceſsarily to be lofty.</head>
+               <p>WE muſt not forget, that as Figures do natural<g ref="char:EOLhyphen"/>ly contribute to the perfection of Loftineſs, ſo on the other hand does Loftineſs to that of Figures; but how, and where<g ref="char:EOLhyphen"/>in, that we are now to ſhew. In the firſt place, moſt certain
+<pb n="78" facs="tcp:56950:50"/>
+it is, that the uſe of Figures apart, and by themſelves, cre<g ref="char:EOLhyphen"/>ates a jealouſie in the audience, of ſome trick or fallacy, eſpeci<g ref="char:EOLhyphen"/>ally when we are to ſpeak be<g ref="char:EOLhyphen"/>fore any Chief Magiſtrate; and above all, an Emperour, a King, or a Great General of an Ar<g ref="char:EOLhyphen"/>my; for ſuch an one is imme<g ref="char:EOLhyphen"/>diately incenſed, and will not ſuffer himſelf, like a little Child, to be put upon by the groſs cheats of a pedantick and crafty Rhetorician; but look<g ref="char:EOLhyphen"/>ing upon the whole Speech to be a meer ſubtilty, (though now and then he liſtens to, and is perhaps pleas'd with the quaintneſs thereof) he retains a firm reſolution to give no credit to what is ſaid. Where<g ref="char:EOLhyphen"/>fore that is the moſt excellent which is ſo diſguis'd, as not to be known to be a Figure; and
+<pb n="79" facs="tcp:56950:50"/>
+there is nothing can effect this better, than the being Lofty and Pathetical; becauſe, when wrapt in ſomething that is great and wonderful, it has what was before wanting, and is no longer ſuſpected of de<g ref="char:EOLhyphen"/>ceit. An example whereof is that which I have lately men<g ref="char:EOLhyphen"/>tion'd, <hi>I ſwear by the Ghoſts of thoſe great Men,</hi> &amp;c. How has our Author concealed this Fi<g ref="char:EOLhyphen"/>gure? Do not we plainly ſee, 'tis by the very brightneſs of his thoughts? For as all leſſer Lights diſappear when the <hi>Sun</hi> ſhines out, ſo do the Subtilties in Rhetorick when ſurrounded by a dazling Greatneſs; and as when parallel Lines are drawn upon a Plain, with the ſame Colours and Shade, a re<g ref="char:EOLhyphen"/>flection of Light (cauſed by that Shadow which the Piece
+<pb n="80" facs="tcp:56950:51"/>
+caſts) is that which firſt appears to the Eye: So the being Pa<g ref="char:EOLhyphen"/>thetical and Lofty by a natural ſympathy which they have with the Affections of the Soul, or by reaſon of their Luſtre, move us much more than thoſe Figures which appear naked, and without any Art.</p>
+            </div>
+            <div n="16" type="chapter">
+               <head>
+                  <hi>CHAP. XVI.</hi> Of Interrogations.</head>
+               <p>WHat ſhall I ſay of <hi>Queſt<g ref="char:EOLhyphen"/>ions</hi> and <hi>Interrogations;</hi> for who can deny, but that they add much to the grace and vigour of Speech? <hi>Will you ne<g ref="char:EOLhyphen"/>ver do any thing elſe</hi> (ſaies De<g ref="char:EOLhyphen"/>moſthenes to the Athenians) <hi>then ramble all over the Town,
+<pb n="81" facs="tcp:56950:51"/>
+to enquire after one another? What newes is there? Why, what greater newes can there be, then that a</hi> Macedonian <hi>makes him<g ref="char:EOLhyphen"/>ſelf Master of</hi> Athens, <hi>and gives Laws to all Greece? Is</hi> Phillip <hi>Dead, ſaies one? No, ſaies a<g ref="char:EOLhyphen"/>nother, he is only Sick. What I'd fain know, is it to you, whe<g ref="char:EOLhyphen"/>ther he be Sick or Dead? When Heaven has ſet you at liberty, you will ſoon find another</hi> Phillip. And in another place, <hi>Let us Embarque for</hi> Macedonia; <hi>where ſhall wee Land ſayes one? the War it ſelf, Sirs, will ſhew where</hi> Phillip <hi>is weakeſt and ea<g ref="char:EOLhyphen"/>ſieſt to be Conquered.</hi> If this had been ſpoken in an ordinary way, t'would not have anſwer'd the weight of his Subject. Whereas by asking the queſtion, and anſwering it himſelf, as if 'twere ſome other perſon, he does
+<pb n="82" facs="tcp:56950:52"/>
+not only make that which he ſayes ſtronger and more con<g ref="char:EOLhyphen"/>ſiderable, but at the ſame time probable; for the being pa<g ref="char:EOLhyphen"/>thetical never ſuceeds better, then when the Orator ſeems not to hunt after it, but that 'tis naturally incident to the thing it ſelf; and nothing re<g ref="char:EOLhyphen"/>ſembles this more then ſuch kind of Queſtions and Anſwers<g ref="char:punc">▪</g> for they that are askt a queſtion of any thing, whereof they know the truth, find a ſuddain motion within themſeives which makes them eager to anſwer; ſo that by this Figure the audi<g ref="char:EOLhyphen"/>ence is cunningly wheedled to believe, that which is moſt me<g ref="char:EOLhyphen"/>ditated, to be <hi>ex tempore</hi> and ſpoken in a heate.<note n="*" place="margin">Here our Au<g ref="char:EOLhyphen"/>thor is very de<g ref="char:EOLhyphen"/>fective.</note> There is nothing that gives a greater quickneſs to Speech then to
+<pb n="83" facs="tcp:56950:52"/>
+remove the Copulatives, for when the ſentences do not hang one upon another, they run ſwiftly on of themſelves; nay without great care, ſwifter then the very thoughts of the Or<g ref="char:EOLhyphen"/>ator. <hi>Having clinch't Bucklers</hi> (ſaies Xenophon) <hi>they gave back, Fought, ſlew, and dyed together.</hi> So it is of that, which <hi>Euryllochus</hi> ſaies to <hi>
+                     <g ref="char:V">Ʋ</g>liſſes</hi> in <hi>Homer.</hi>
+               </p>
+               <q>
+                  <l>— At your command we went,</l>
+                  <l>Through thoſe thick woods you ſaw, a vaſt deſcent</l>
+                  <l>Shew'd us a ſtately houſe in light<g ref="char:EOLhyphen"/>ſom ground,</l>
+                  <l>Where <hi>Circe</hi> dwelt, <hi>&amp;c.</hi>
+                  </l>
+               </q>
+               <p>Theſe Periods cut off and pro<g ref="char:EOLhyphen"/>nounced in haſte, are the true ſignes of a lively grief, which
+<pb n="84" facs="tcp:56950:53"/>
+choaking up the paſſage, hin<g ref="char:EOLhyphen"/>ders the ſmoothneſs of the ut<g ref="char:EOLhyphen"/>terance. Thus <hi>Homer</hi> knew how and when to take away con<g ref="char:EOLhyphen"/>nexion.</p>
+            </div>
+            <div n="17" type="chapter">
+               <head>
+                  <hi>CHAP. XVII.</hi> Of the uniting of Figures.</head>
+               <p>YEt after all, there is nothing of greater force in Elo<g ref="char:EOLhyphen"/>quence, then a well uniting and contracting of many figures to<g ref="char:EOLhyphen"/>gether. For thereby they be<g ref="char:EOLhyphen"/>come ſociable, and partake of each others ſtrength and Orna<g ref="char:EOLhyphen"/>ment, as may be ſeen by this paſſage, in the ſpeech which <hi>Demoſthenes</hi> made againſt <hi>Mi<g ref="char:EOLhyphen"/>das.</hi> Where, without any con<g ref="char:EOLhyphen"/>nexion at all, he has made uſe of theſe two figures, <hi>Anaphora,</hi>
+                  <pb n="85" facs="tcp:56950:53"/>
+and <hi>Diatipoſis,</hi> (that is) a Re<g ref="char:EOLhyphen"/>pitition, and deſcription. <hi>For every man</hi> (ſays he] <hi>that injures another, does many things, by the behaviour, eyes, or voice, which he who has been injur'd, cannot well remember.</hi> And leaſt in the end his ſpeech ſhould ſlacken, knowing that Order, and Method, is moſt ſuitable to a ſettled and deliberate mind; And on the contrary, that diſ<g ref="char:EOLhyphen"/>order and confuſion, is the beſt Argument of Paſſion, Which is it ſelf nothing but a diſorder and confuſion of the ſoul; he goes on as before; <hi>One while he beats him like an Enemy, another while inſults over him, now with his fist, then with his looks.</hi> By ſuch violent expreſ<g ref="char:EOLhyphen"/>ſions, ſo heapt one upon ano<g ref="char:EOLhyphen"/>ther, our Orator makes his Judges as much concern'd as if
+<pb n="86" facs="tcp:56950:54"/>
+they ſhou'd ſee the man ſtriking in their preſence. He rallies up again, and taking breath, pours in like a Tempeſt. <hi>Theſe affronts provoke, theſe affronts are inſup<g ref="char:EOLhyphen"/>portable to a ſtout man not us'd to bear them, 'tis not to be imagin'd how hainous an offence it is.</hi> By this continual change, he car<g ref="char:EOLhyphen"/>ries on throughout the Chara<g ref="char:EOLhyphen"/>cter of theſe bluſtring figures. So that there is a diſorder in his method, and a method in his diſorder. Now then let us put Conjunctions to this paſſage, as <hi>Iſocrates</hi>'s Scholars do. <hi>And certainly it muſt not be forgott, that he who injures another, does many things, firſt by the behavi<g ref="char:EOLhyphen"/>our, afterwards by the Eyes, and lastly by the voice it ſelf,</hi> &amp;c. Here in making all theſe of an equal force and proportion, while we cement 'em to each
+<pb n="87" facs="tcp:56950:54"/>
+other, we make that which be<g ref="char:EOLhyphen"/>fore had a pathetical ſtrength and violence, to become a ſlight and flaſhy niceneſs of language, which is of no ſubſtance, but preſently goes out of it ſelf. And as if the Body of a man who is to run be bound, be loſes his ſpeed; So if we bind the paſ<g ref="char:EOLhyphen"/>ſion with uſeleſs Copulatives, we take away that ſwiftneſs and violence, which otherwiſe it wou'd have.</p>
+            </div>
+            <div n="18" type="chapter">
+               <head>CHAP. XVIII. <hi>Of Hyperbat</hi>'s.</head>
+               <p>AMongſt other things we muſt not forget <hi>Hyper<g ref="char:EOLhyphen"/>bat's.</hi> An <hi>Hyperbate</hi> is nothing but a <hi>Tranſpoſition of thoughts or words from the Grammatical or<g ref="char:EOLhyphen"/>der.</hi>
+               </p>
+               <p>
+                  <pb n="88" facs="tcp:56950:55"/>This figure gives a true chara<g ref="char:EOLhyphen"/>cter of a violent and ſtrong paſ<g ref="char:EOLhyphen"/>ſion. Thus we ſee thoſe who are extreamly moved with an<g ref="char:EOLhyphen"/>ger, fear, indignation, jealouſie, or any other of the paſſions, (too many to be reckon'd up) are in a continual diſtraction: no ſooner have they thought of one thing, but another does im<g ref="char:EOLhyphen"/>mediatly ſucceed it; and e're they have half finiſhed the firſt, they run headlong to the ſe<g ref="char:EOLhyphen"/>cond; till finding that does not pleaſe 'em, they again return to the firſt. This paſſion of theirs, like a fickle wind, hurries 'em now one way, then another; and by reaſon of this perpetual Ebb and flow of contrarieties, they ſtagger in their thoughts every moment, and neglect all manner of form and method. The ableſt writers, in intimati<g ref="char:EOLhyphen"/>on
+<pb n="89" facs="tcp:56950:55"/>
+of theſe ſuddain motions of nature, make uſe of <hi>Hyperbat's</hi> and to ſay true, the perfection of Art is to reſemble, and paſs for Nature her ſelf; as on the other hand, nature never ſucceeds better, then when ſhe conceals art in her boſom. An example of this, is that in <hi>Herodotus,</hi> which <hi>Dionyſius Phocenſis</hi> ſays to the <hi>Ionians. In fine, our affairs are come to the laſt puſh</hi> Sirs, <hi>ſo that we muſt neceſsarily either be free men or ſlaves, I and miſerable ſlaves: To prevent therefore, the thick ſtorm which hangs threat<g ref="char:EOLhyphen"/>ning over your heads, you muſt inſtantly bestir your ſelves, and purchaſe your liberty with the de<g ref="char:EOLhyphen"/>feat of your Enemies.</hi> Now, to have followed the natural way, he ſhou'd have ſaid, Sirs, <hi>'tis high time we ſhou'd now think of be ſtir<g ref="char:EOLhyphen"/>ing our ſelves, when our afairs
+<pb n="90" facs="tcp:56950:56"/>
+are come to the last puſh,</hi> &amp;c. Firſt then he tranſpoſes this word, <hi>Sirs,</hi> and does not inſert it till he had given 'em a hint of his fearful apprehenſion; as if the greatneſs of the danger, had made him forget that uſual ce<g ref="char:EOLhyphen"/>remony, wherewith we ought to addreſs our ſelves to thoſe before whom we are ſpeaking. Afterwards he inverts the order of his conceptions; for before he comes to the main point (which is to exhort 'em to beſtir themſelves) he gives the reaſon which ought to induce 'em thereunto: <hi>In fine, our affairs are brought to the laſt extremity.</hi> And this he does that they may think what he ſays is not ſtu<g ref="char:EOLhyphen"/>died, but proceeding from the very force of his great concern for them. <hi>Thucydides</hi> is very re<g ref="char:EOLhyphen"/>markable in his <hi>Hyperbat's,</hi> for
+<pb n="91" facs="tcp:56950:56"/>
+he does moſt admirably tranſ<g ref="char:EOLhyphen"/>poſe thoſe things which ſeem to have a natural dependance one upon another, and altogether inſeparable. As for <hi>Demoſthenes,</hi> tho' in all other points he is more reſerv'd then <hi>Thucydides,</hi> yet in this he is not, for no one ever took greater delight in <hi>Hyperbat's</hi> than he, who out of a deſire to have whatever he ſays, ſeem as if ſpoken upon the nick of time, leads his audi<g ref="char:EOLhyphen"/>ence through the dangerous la<g ref="char:EOLhyphen"/>byrinths of long tranſpoſitions. Many times therefore, breaking off abruptly in the middle of his Speech, as if he affected diſ<g ref="char:EOLhyphen"/>order and confuſion, and inter<g ref="char:EOLhyphen"/>poſing ſeveral things no ways material to the matter in hand, he ſtartles his Auditors; who ſuppoſing the ſtrength of his Arguments to be juſt ſpent, are
+<pb n="92" facs="tcp:56950:57"/>
+themſelves concerned at the danger they fancy him in; when of a ſuddain, and unex<g ref="char:EOLhyphen"/>pectedly, wheeling about, and falling upon that which was ſo long ſuſpended, by this tranſpo<g ref="char:EOLhyphen"/>ſition as equaly uſeful as dange<g ref="char:EOLhyphen"/>rous, he prevails more then if he had obſerv'd an exact me<g ref="char:EOLhyphen"/>thod throughout, but of this there are ſo many many exam<g ref="char:EOLhyphen"/>pels, that I ſhall forbear to in<g ref="char:EOLhyphen"/>ſtance in any.</p>
+            </div>
+            <div n="19" type="chapter">
+               <head>
+                  <hi>CHAP. XIX.</hi> Of the alteration of the number.</head>
+               <p>WHatſoever has been ſaid of the foregoing Fi<g ref="char:EOLhyphen"/>gures, as much may be ſaid of <hi>Polyptotes,</hi> or diverſities of Caſes,
+<pb n="93" facs="tcp:56950:57"/>
+Collections, alterations, Grada<g ref="char:EOLhyphen"/>tions, and ſuch like, which be<g ref="char:EOLhyphen"/>ing ſtrong and vehement, are conſequently very uſefull to the Ornament of Speech; and more eſpecially to that of being Lofty and patheticall. What ſhall I ſay of the alteration of Caſes, Tenſes, Perſons, Number, and Genders? For who does not plainly ſee: how neceſſary they are to vary and revive an ex<g ref="char:EOLhyphen"/>preſſion. Now then, for an ex<g ref="char:EOLhyphen"/>preſſion of the alteration of the number, let us take thoſe Sing<g ref="char:EOLhyphen"/>ulars, which have the Termi<g ref="char:EOLhyphen"/>nation of Singulars, but when rightly examined, the force and Virtue of Plurals; <hi>Straitwayes a multitude of People running to the Port, made the ſhore eccho to their ſhouts.</hi> Theſe ſingulars are the more remarkable, for that ſometimes there is nothing
+<pb n="94" facs="tcp:56950:58"/>
+ſo ſtately as plurals; that mul<g ref="char:EOLhyphen"/>titude and number which they contain, giving them a delicate ſound and Emphaſis. Such are theſe Plurals in <hi>Sophocles</hi> con<g ref="char:EOLhyphen"/>cerning <hi>Oedipus</hi>
+                  <q>
+                     <l>Hymen! curſt Hymen! 'twas thou gav<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ſt me life,</l>
+                     <l>But back into the Womb from whence I came,</l>
+                     <l>Thou'st made that blood return by which I am;</l>
+                     <l>And by that ſingle Act ha'st made Brothers,</l>
+                     <l>Fathers, and Sons, Huſbands, Wives, and Mothers,</l>
+                     <l>And all that's horrid to man<g ref="char:EOLhyphen"/>kind, <hi>&amp;c.</hi>
+                     </l>
+                  </q>
+               </p>
+               <p>All theſe different names de<g ref="char:EOLhyphen"/>not only one individuall perſon, that is <hi>Oedipus</hi> on one part, and his Mother <hi>Jocaſta</hi> on the other,
+<pb n="95" facs="tcp:56950:58"/>
+but this number ſo divided and multiplyed into different plu<g ref="char:EOLhyphen"/>rals, do's ſeem inſome meaſure to multiply the misfortune of <hi>Oedipus.</hi> 'Tis by a ſuch like plec<g ref="char:EOLhyphen"/>naſm, that a certain Poet ſaid.</p>
+               <q>See the Sarpedons, and the Hect<g ref="char:EOLhyphen"/>ors come, <hi>&amp;c.</hi>
+               </q>
+               <p>The ſame may be ſaid of the paſſage in <hi>Plato</hi> to the <hi>Athe<g ref="char:EOLhyphen"/>nians,</hi> which I have elſewhere taken notice of, <hi>There are no Polips's, no (admus's, no Aegyp<g ref="char:EOLhyphen"/>tus</hi>'s, <hi>no Danaus's, or other Bar<g ref="char:EOLhyphen"/>barians that live amongſt us. We are Greeks far from the Traf<g ref="char:EOLhyphen"/>fick and converſation of Forraign Nations,</hi> &amp;c. Now then all theſe plurals, ſo pil'd one upon another, give us a much greater Idea of the things they repre<g ref="char:EOLhyphen"/>ſent. Yet muſt we be very cau<g ref="char:EOLhyphen"/>tious
+<pb n="96" facs="tcp:56950:59"/>
+not to uſe them in all Ca<g ref="char:EOLhyphen"/>ſes, but then only when we are to amplifie, multiply, or be Pa<g ref="char:EOLhyphen"/>theticall; that is in ſhort, when the Subject is capable of any one or more of theſe, for al<g ref="char:EOLhyphen"/>wayes to be tinckling theſe Cymbals, ſavours too much of Sophiſtry.</p>
+            </div>
+            <div n="20" type="chapter">
+               <head>
+                  <hi>CHAP. XX.</hi> Of Plurals reduc'd into Singu<g ref="char:EOLhyphen"/>lars.</head>
+               <p>PLurals on the other hand may be reduc'd into Sin<g ref="char:EOLhyphen"/>gulars, and then they carry ſomething in them which is great and lofty. <hi>All Peloponeſus</hi> (ſaies <hi>Demoſthenes) was divi<g ref="char:EOLhyphen"/>ded into factions,</hi> and ſo of that
+<pb n="97" facs="tcp:56950:59"/>
+paſſage in <hi>Herodotus, Phryna<g ref="char:EOLhyphen"/>cus's Tragedy of the taking of</hi> Mi<g ref="char:EOLhyphen"/>letus, <hi>being acted, all the Thea<g ref="char:EOLhyphen"/>tre wept.</hi> For when many things are contracted into one, they render the Expreſſion more ſub<g ref="char:EOLhyphen"/>ſtantiall and ſinewey. Yet the effects of both theſe diſtinct Figures, do proceed generally from one and the ſame cauſe. So that whether Singulars di<g ref="char:EOLhyphen"/>vided into Plurals, do make many things of one, or Plurals contracted into Singulars, one of many, they are no ſmall in<g ref="char:EOLhyphen"/>gredient to the being pathe<g ref="char:EOLhyphen"/>tical.</p>
+            </div>
+            <div n="21" type="chapter">
+               <pb n="98" facs="tcp:56950:60"/>
+               <head>
+                  <hi>CHAP. XXI.</hi> Of the alteration of the Tenſe.</head>
+               <p>THe ſame may be ſaid of the alteration of the Tenſe, which is, when we ſpeak of a thing paſt, as if 'twere now preſent, whereby that which we ſay, is not ſo much a Narra<g ref="char:EOLhyphen"/>tion, as repreſentation of a thing in being. <hi>A Souldier</hi> (ſaies Xe<g ref="char:EOLhyphen"/>nephon) <hi>falling under</hi> Cyrus <hi>his Horſe, and being trampled upon, runs the Horſe thorow the Belly with his Sword, the Horſe at the ſmart of the Wound grows reſtie and throws his Rider;</hi> Cyrus <hi>falls.</hi>
+               </p>
+               <p>You'l meet with this Figure very often in <hi>Thucydides.</hi>
+               </p>
+            </div>
+            <div n="22" type="chapter">
+               <pb n="99" facs="tcp:56950:60"/>
+               <head>
+                  <hi>CHAP. XXII.</hi> Of the alteration of the Perſons:</head>
+               <p>OF the ſame efficacy is the alteration of the Perſons: for it oftentimes makes the audience fancy themſelvs engaged in the middle of the danger they hear of.</p>
+               <q>
+                  <l>Had you but ſeen with what a rage they fought,</l>
+                  <l>You'd ſwear each blow had a new rage begot;</l>
+                  <l>That the long combat wou'd have ne're bin done.</l>
+                  <l>Still as they fought, you'd think 'twas just begun.</l>
+               </q>
+               <p>And in <hi>Aratus,</hi>
+                  <q>
+                     <pb n="100" facs="tcp:56950:61"/>Forbear to truſt the Seas this dangerous Month.</q>
+So in <hi>Herodotus, when you are out of</hi> Elephantine <hi>(ſays this Histoiran) at the upper end of the Town, you'l come to a Hill,</hi> &amp;c. <hi>From thence you'l deſcend into a Plain; when you have croſt that, you may embarque again, and in twelve days you will come to a great city called</hi> Meroe. See here (dear <hi>Terentianus</hi>) how he takes your mind along with him, and leads it through all theſe ſeveral countries, which you rather ſee than hear of. This if judiciouſly done, obliges the audience to liſten earneſtly to the preſent buſineſs; eſpeci<g ref="char:EOLhyphen"/>ally if the addreſs be made to one particular perſon, and not many in general.</p>
+               <q>
+                  <pb n="101" facs="tcp:56950:61"/>
+                  <l>So cloſe the parties mett, you cou'd not know</l>
+                  <l>On which <hi>Tydides</hi> fought, <hi>&amp;c.</hi>
+                  </l>
+               </q>
+               <p>For one that is alarm'd with ſuch Apoſtraphes, which ſeem to be directed to him in par<g ref="char:EOLhyphen"/>ticular, fancies himſelf more im<g ref="char:EOLhyphen"/>mediatly concern'd, and is con<g ref="char:EOLhyphen"/>ſequently the more attentive.</p>
+            </div>
+            <div n="23" type="chapter">
+               <head>
+                  <hi>CHAP. XXIII.</hi> Of Suddain Tranſitions.</head>
+               <p>IT often happens, that a Poet, or any other writer, ſpeak<g ref="char:EOLhyphen"/>ing of any one, does unexpe<g ref="char:EOLhyphen"/>ctedly ſlip in himſelf, and per<g ref="char:EOLhyphen"/>ſonate the party he is ſpeaking of. And this figure ſhews the vehemency of Paſſion.</p>
+               <q>
+                  <pb n="102" facs="tcp:56950:62"/>
+                  <l>But <hi>Hector</hi> loudly roaring on the ſhoar,</l>
+                  <l>Commands his Troops to give the plunder o're,</l>
+                  <l>And ruſh upon the fleet.—</l>
+                  <l>For by the Gods! if any one denies</l>
+                  <l>To do what I command, the traytor dies.</l>
+                  <l>With my owne hand, to waſh away the guilt,</l>
+                  <l>I'le ſhed his bloud, <hi>&amp;c.</hi>
+                  </l>
+               </q>
+               <p>Here the Poet reſerves the nar<g ref="char:EOLhyphen"/>ration as a thing moſt proper for himſelf, but of a ſudden puts the threatning oath into the mouth of the hot boyſterous Warriour: for had he inſerted this, or the like clauſe, <hi>Hector then ſaid ſo or ſo.</hi> The whole ſpeech had fainted, whereas by this quick tranſition, he antici<g ref="char:EOLhyphen"/>pates
+<pb n="103" facs="tcp:56950:62"/>
+the Reader, who finds it made before he is aware. The uſe therefore of this figure, is never ſo good, as when the ur<g ref="char:EOLhyphen"/>gency of the time and opportu<g ref="char:EOLhyphen"/>nity given, will not admit of a Demur, but hurries the wri<g ref="char:EOLhyphen"/>ter away from one perſon to another: As 'tis in <hi>Hecataeus. The Herauld, having throughly conſider'd the conſequence of all things, commands the family of the</hi> Heraclidae <hi>to depart: 'tis not in my power to help you any fur<g ref="char:EOLhyphen"/>ther, you are loſt, and will ſhort<g ref="char:EOLhyphen"/>ly force me to betake my ſelf to ſome other Countrey. Demoſt<g ref="char:EOLhyphen"/>henes</hi> in his ſpeech againſt <hi>Ari<g ref="char:EOLhyphen"/>stogiton,</hi> uſes this figure in a different way, but withall, ex<g ref="char:EOLhyphen"/>treamly pathetical. <hi>There is not one amongſt you</hi> (ſaith he) <hi>that is concern'd to ſee an impu<g ref="char:EOLhyphen"/>dent, ſcandalous fellow, violate
+<pb n="104" facs="tcp:56950:63"/>
+the moſt ſacred laws; a Villain, I ſay, who, — Oh! thou worſt of men, nothing can withſtand thy unbridl'd boldneſs; I ſay nothing of breaking open doors, or grates, others may do that as well as you,</hi> &amp;c. Here, juſt upon the point of one word, his anger diſtracts him between two dif<g ref="char:EOLhyphen"/>ferent perſons, and makes him leave his thoughts imperfect. <hi>Who—Oh! thou worst of men.</hi> Then turning unawares that part of the ſpeech, which he ſeem'd to have done with, upon <hi>Ariſtogiton;</hi> he made a much greater impreſſion upon the minds of the audience. So is it of <hi>Penelope</hi>'s behaviour in <hi>Homer,</hi> when ſhe ſaw an <hi>Herald</hi> coming to her from her wooers.</p>
+               <q>
+                  <l>Now <hi>Herald</hi> ſpeak, what wou'd the wooers have?</l>
+                  <l>
+                     <pb n="105" facs="tcp:56950:63"/>Is it to tell the Maids, they must forbear</l>
+                  <l>To do my work, and their feasts prepare?</l>
+                  <l>Wou'd to the Gods they'd leave off wooing me,</l>
+                  <l>And that at length, this feaſt their laſt may be.</l>
+                  <l>When e're they meet, 'tis with de<g ref="char:EOLhyphen"/>ſign to ſpoil,</l>
+                  <l>And reap the profits of anothers Toil.</l>
+                  <l>Have not your fathers told you heretofore</l>
+                  <l>Who this <hi>Ulyſſes</hi> was? <hi>&amp;c.</hi>
+                  </l>
+               </q>
+            </div>
+            <div n="24" type="chapter">
+               <head>
+                  <hi>CHAP. XXIV.</hi> Of Paraphraſe.</head>
+               <p>I Do not believe any body can doubt, whether <hi>Pa<g ref="char:EOLhyphen"/>raphraſe</hi> be of great uſe in lof<g ref="char:EOLhyphen"/>tineſs.
+<pb n="106" facs="tcp:56950:64"/>
+For as in Muſick all Harmony is made by the agree<g ref="char:EOLhyphen"/>ment of different Notes; ſo <hi>Paraphraſe</hi> by a circumlocuti<g ref="char:EOLhyphen"/>on, wherein every part is con<g ref="char:EOLhyphen"/>ſonant to the whole, does be<g ref="char:EOLhyphen"/>get a delicate Harmony in ſpeech; eſpecially if there be no Bombaſte nor jarring, but a pleaſing Symmetrie throughout. Of this <hi>Plato</hi> has given us a moſt excellent ex<g ref="char:EOLhyphen"/>ample, in the beginning of his Funeral Oration. <hi>In fine</hi> (ſays he) <hi>we have performed the laſt rites which are due to them: and thoſe being paſt, they immediately arrive at the end of this fatal Journey; gloriouſly ſet out by thoſe high ſolemnities wherewith the whole Town, and more par<g ref="char:EOLhyphen"/>ticularly their own Relations, have conducted 'em out of this world.</hi> Firſt he calls death a <hi>fa<g ref="char:EOLhyphen"/>tal
+<pb n="107" facs="tcp:56950:64"/>
+Journey:</hi> And afterwards interprets the funeral Obſequies to be a ſolemn Pomp made pur<g ref="char:EOLhyphen"/>poſely to attend 'em at their departure out of this life. Shall we then ſay, that all this ſerved but to enlarge upon, or raiſe the thought? no; let us rather affirm, that by this curious <hi>Pa<g ref="char:EOLhyphen"/>raphraſe,</hi> he has out of one ſingle word made a moſt Har<g ref="char:EOLhyphen"/>monious Conſort. So <hi>Xenophon, You look upon labour as the only path that leads to a happy and pleaſant life; and you have at<g ref="char:EOLhyphen"/>tained to that which is moſt ne<g ref="char:EOLhyphen"/>ceſſary, and commendable in war<g ref="char:EOLhyphen"/>like men which is to be delighted with nothing ſo much as renown.</hi> inſtead of ſaying <hi>you are very la<g ref="char:EOLhyphen"/>borious,</hi> he uſes this circumlo<g ref="char:EOLhyphen"/>cution, <hi>you look upon labour as the path that leads to a happy and pleaſant life.</hi> So that by ſtretch<g ref="char:EOLhyphen"/>ing
+<pb n="108" facs="tcp:56950:65"/>
+out, and enlarging upon every clauſe, he adds at once both to the exceſs of his own thoughts, and their com<g ref="char:EOLhyphen"/>mendation. This <hi>Paraphraſe</hi> in <hi>Herodotus</hi> is in my mind moſt incomparable. <hi>The God<g ref="char:EOLhyphen"/>deſs</hi> Venus <hi>to puniſh the inſolence of the</hi> Scythians, <hi>who had pil<g ref="char:EOLhyphen"/>laged her Temple, ſent amongſt 'em the Female</hi>
+                  <note n="*" place="margin">Hemor<g ref="char:EOLunhyphen"/>rhoides</note> 
+                  <hi>diſeaſe.</hi> Now then there is no<g ref="char:EOLhyphen"/>thing of greater uſe than <hi>Pa<g ref="char:EOLhyphen"/>raphraſe,</hi> provided it ſpread not beyond the bounds of reaſon and modeſty; for then it grows dull and childiſhly troubleſom. And therefore <hi>Plato,</hi> who is always figurative in his Expreſ<g ref="char:EOLhyphen"/>ſions, (and many times impro<g ref="char:EOLhyphen"/>perly) was (as ſome give out) jeer'd for ſaying in his Common<g ref="char:EOLhyphen"/>wealth, <hi>Riches whether of gold, or ſilver, muſt not be ſuffer'd to
+<pb n="109" facs="tcp:56950:65"/>
+take footing, or dwell in a City.</hi> Suppoſe (ſay they) he would have forbid the having of Cattle in the ſame reaſon he ſhou'd have ſaid <hi>the riches of Sheep and Oxen.</hi> But what we have al<g ref="char:EOLhyphen"/>ready ſaid in general, will ſuf<g ref="char:EOLhyphen"/>fice to let you ſee how uſeful figures are to the perfection of loftineſs, in that they are the Nerves and Sinews of ſpeech and tend to the being patheti<g ref="char:EOLhyphen"/>call; which participates as much of loftineſs, as loftineſs it ſelf does of what is delicate and delightful.</p>
+            </div>
+            <div n="25" type="chapter">
+               <head>
+                  <hi>CHAP. XXV.</hi> Of the choice of Words.</head>
+               <p>SInce thoughts and expreſſi<g ref="char:EOLhyphen"/>ons are ſo reciprocal, that
+<pb n="110" facs="tcp:56950:66"/>
+by the one we come to the knowledge of the other: let us ſee what remains to be ſaid in this part of the Treatiſe concer<g ref="char:EOLhyphen"/>ning expreſſion; but, for that every one muſt needs be ſen<g ref="char:EOLhyphen"/>ſible, what a great power there is in ſelect and proper words, 'twill be altogether needleſs to inſiſt long upon this point. In ſhort therefore, Orators, or any other Writers, who endeavour to be Sublime and Lofty, have not any one thing, that affords them ſo much greatneſs, Ele<g ref="char:EOLhyphen"/>gancy, Neatneſs, Weight, or Vigour for their Works, as does a careful choice of Words; 'tis they that dreſs out Speech in all its ſplendor, 'tis they give it the beauty, nay the very life and Soul which it has; in a word, they are the proper, and moſt natural light of our
+<pb n="111" facs="tcp:56950:66"/>
+thoughts. Yet muſt we take heed, how and upon what oc<g ref="char:EOLhyphen"/>caſion we uſe them, for to ex<g ref="char:EOLhyphen"/>preſs a mean Subject in Great and Lofty Words, is like put<g ref="char:EOLhyphen"/>ting a little Child to act a Tra<g ref="char:EOLhyphen"/>gical or Heroical part.<note n="*" place="margin">Our Author after he had ſhewed how Impertinent great Words, are in an ordinary ſtile, do's let us ſee, that ſometimes little words may be made uſe of in a noble Stile.</note> A fur<g ref="char:EOLhyphen"/>ther proof here<g ref="char:EOLhyphen"/>of is that paſ<g ref="char:EOLhyphen"/>ſage in <hi>Theopom<g ref="char:EOLhyphen"/>pus</hi> which <hi>Ce<g ref="char:EOLhyphen"/>cilius</hi> cenſures, but upon what ground, I know not; for in my mind, it is much to be commended as be<g ref="char:EOLhyphen"/>ing both correct and very ex<g ref="char:EOLhyphen"/>preſſive. <hi>Philip</hi> (ſaies he) <hi>Swallow'd patiently thoſe affronts, which the neceſſity of his affairs obliged him to endure.</hi> Now, that plain and familiar terms, do many times expreſs a thing
+<pb n="112" facs="tcp:56950:67"/>
+better than all the high-flown Eloquence whatever, the dai<g ref="char:EOLhyphen"/>ly experience which we have from the tranſactions of this life, can ſufficiently teſtifie. Be<g ref="char:EOLhyphen"/>ſides that which is ſpoken in plain and familiar words, is more fully and diſtinctly under<g ref="char:EOLhyphen"/>ſtood, and therefore ſo much the ſooner believ'd. Therefore (when ſpoken of a man, who conſulting his Intereſt, does ea<g ref="char:EOLhyphen"/>ſily, nay, willingly bear with In<g ref="char:EOLhyphen"/>juries) this <hi>Phraſe, to ſwallow Affronts,</hi> ſeems to me to have a very ſtrong ſignification. So is it of that expreſſion in <hi>Hero<g ref="char:EOLhyphen"/>dotus.</hi> Cleomenes <hi>being Mad, with a Knife Minc'd his own fleſh, and after having ſo mangled himſelf, dyed.</hi> And in another place, Pythes <hi>ſtood Fighting on the Deck till he was Hack'd in pieces.</hi> Such plain expreſſi<g ref="char:EOLhyphen"/>ons
+<pb n="113" facs="tcp:56950:67"/>
+as theſe, ſhew that the Author of them, does not ſo much aim at Elegancy, as naked truth; and yet are they far from being dull, or trivial.</p>
+            </div>
+            <div n="26" type="chapter">
+               <head>
+                  <hi>CHAP. XXVI.</hi> Of Metaphors.</head>
+               <p>AS for the number of <hi>Me<g ref="char:EOLhyphen"/>taphors, Cecilius</hi> is one of thoſe, who will not allow above two or three at the moſt to the expreſſing of one ſingle thing: but let us follow <hi>Demoſthenes,</hi> he ſhews us, that there are ſe<g ref="char:EOLhyphen"/>veral caſes wherein we may make uſe of many at one and the ſame time. As when the paſ<g ref="char:EOLhyphen"/>ſions, like a rapid ſtream, neceſ<g ref="char:EOLhyphen"/>ſarily ſuck 'em in one upon ano<g ref="char:EOLhyphen"/>ther. <hi>Theſe wretched men</hi> (ſays
+<pb n="114" facs="tcp:56950:68"/>
+he) <hi>theſe baſe</hi> Sycophants, <hi>theſe furies of the Republick, have in<g ref="char:EOLhyphen"/>humanly torn in pieces their own Countrey. Theſe are they who heretofore, in their debaucheries, ſold our liberties to King</hi> Philip, <hi>as at this day they do to</hi> Alexan<g ref="char:EOLhyphen"/>der. <hi>Theſe are they, who, mea<g ref="char:EOLhyphen"/>ſuring all their happineſs by the brutiſh pleaſures of eating, and ſcandalous rioting, have thrown down all the bounds of reputation, and deſtroy'd that fundamentall, and wholſom Law of levelling, wherein conſiſted the felicity of the ancient Greeks.</hi> With this band of <hi>Metaphors</hi> our Orator falls furiouſly upon thoſe Tray<g ref="char:EOLhyphen"/>tors. Yet <hi>Ariſtotle</hi> and <hi>Theo<g ref="char:EOLhyphen"/>phraſtes</hi> are of opinion, that to alleviate the boldneſs of theſe figures, 'tis convenient to uſe ſome ſuch expreſſion; as, <hi>If I may ſo ſay, as it were, to go yet
+<pb n="115" facs="tcp:56950:68"/>
+further.</hi> For (ſay they very well) the previous excuſe is an Attonement for their boldneſs. But I ſtill ſtick to my firſt poſiti<g ref="char:EOLhyphen"/>on, that there is no excuſe ſo natural, or allowable for the abundance, or boldneſs, either of <hi>Metaphors,</hi> or any other Fi<g ref="char:EOLhyphen"/>gures, as the uſing 'em to a fit purpoſe, that is, the being pa<g ref="char:EOLhyphen"/>thetical and lofty; both which, requiring ſtrong and weighty expreſſions, have a natural force and violence, wherewith they hurry every thing after them, and will not give the au<g ref="char:EOLhyphen"/>dience time to criticize upon the number of the <hi>Metaphors;</hi> being at that inſtant poſſeſſed with the ſame fury as he that ſays them. And many times in common places, and deſcripti<g ref="char:EOLhyphen"/>ons, there is nothing ſo advan<g ref="char:EOLhyphen"/>tageous as a chain of <hi>Metaphors</hi>
+                  <pb n="116" facs="tcp:56950:69"/>
+well linkt together. 'Tis with the Aſſiſtance thereof, that <hi>Xenophon</hi> has ſo delicately ana<g ref="char:EOLhyphen"/>tomized mans body, though not altogether ſo well as <hi>Plato.</hi> This calls the Head of a Man a <hi>Cittadel,</hi> the Neck an <hi>Iſthmus</hi> plac'd between it and the body, the Joynts are as <hi>Hinges</hi> upon which it turns. Pleaſure is <hi>the bait for all misfortunes that hap<g ref="char:EOLhyphen"/>pen to mankind:</hi> the Tongue is <hi>the Judge of Taſt;</hi> The Heart is <hi>the Root of the veins; the foun<g ref="char:EOLhyphen"/>tain of bloud; which flows from thence through all the other parts, and is in a place every way for<g ref="char:EOLhyphen"/>tified.</hi> He calls the Pores <hi>narrow ſtreets. The Gods</hi> (ſays he) <hi>willing to preſerve the Heart from Batteries which are made by a ſuddain ſurprize of frightfull ob<g ref="char:EOLhyphen"/>jects, or from the violent flames of choller, have plac'd underneath
+<pb n="117" facs="tcp:56950:69"/>
+it, the Liver, which is of a ſoft bloudleſs ſubſtance, but full of little holes like a ſpunge, which ſerve for conveyances to the Heart, that it be not choak'd up, and diſturb'd from doing its office, when the choler is too much enflam'd.</hi> He calls the ſeat of the affections, <hi>the Womens Nurſery;</hi> and the ſeat of the Paſſions, <hi>the Mens Apartment;</hi> The ſpleen, he ſays, is <hi>the Kitchen of the Entralls, which being full of the excrements of the Liver, ſwells and boyls up. afterwards</hi> (continues he) <hi>the Gods cover'd all theſe parts with fleſh, as a Bulwark and defence againſt the aſsaults of heat and Cold, or any other accident; and is</hi> (ſays he) <hi>like ſoft wool, which encompaſses the body, and yields to any impreſſion.</hi> The Bloud he calls <hi>the food of the fleſh, and to the end</hi> (ſays he) <hi>that every part
+<pb n="118" facs="tcp:56950:70"/>
+ſhou'd be nouriſh'd, there are ſeve<g ref="char:EOLhyphen"/>ral Pipes like Conduit Pipes in a Garden, through which the little ſtreams of bloud, flowing from the heart, as the Spring-Head, run into every part of the Body.</hi> And when death comes (he ſays) <hi>that the Organs are unty'd, like the Ropes of the Ship, and ſo let the ſoul go a drift.</hi> There are many more no leſs pleaſant and admirable, but theſe ſhall ſuffice to ſhew the natural loftineſs of ſuch figures, to ſhew, I ſay, how material they are, not only to the being lofty and pathetical, but excellent in deſcription. Now that theſe figures, as well as all other elegancies of ſpeech, are apt to tranſport a thing to exceſs, is a moſt undeniable truth, and not to be learn'd of me. Hence is it, that divine <hi>Plato</hi> has been much found
+<pb n="119" facs="tcp:56950:70"/>
+fault with, for ſuffering him<g ref="char:EOLhyphen"/>ſelf to be ſometimes hurried a<g ref="char:EOLhyphen"/>way by extravagant and harſh <hi>Metaphors,</hi> to a vain allegori<g ref="char:EOLhyphen"/>cal Oſtentation. <hi>'Twill not eaſi<g ref="char:EOLhyphen"/>ly be conceived</hi> (ſays he) <hi>that 'tis with a City as with a Veſſel, where<g ref="char:EOLhyphen"/>in if Wine be powred which is never ſo ſtrong and heady, yet of a ſudden entring into the Soci<g ref="char:EOLhyphen"/>ety, of another ſober divinity which corrects it, it becomes mild, and fit to be drunk;</hi> To call Water <hi>a ſober Divinity,</hi> to uſe the word <hi>correct,</hi> in ſtead of <hi>Temperate;</hi> and to affect ſuch odd conceits ſavours too much, ſay they, of a Poet, who him<g ref="char:EOLhyphen"/>ſelf is not very ſober. And this perhaps was it, that gave occa<g ref="char:EOLhyphen"/>ſion to <hi>Cecilius,</hi> in his Commen<g ref="char:EOLhyphen"/>taries upon <hi>Lycias,</hi> to conclude that in the whole <hi>Lycias</hi> was a better Orator then <hi>Plato;</hi> in<g ref="char:EOLhyphen"/>duced
+<pb n="120" facs="tcp:56950:71"/>
+thereunto by two diſtinct motives, both equally unreaſon<g ref="char:EOLhyphen"/>able; for though he lov'd <hi>Lycias</hi> dearer than himſelf, yet he ha<g ref="char:EOLhyphen"/>ted <hi>Plato</hi> more than he loved <hi>Lycias;</hi> being therefore byas'd by a ſtrong inclination for the one, and as ſtrong an averſion for the other, he has not paſs'd that true, and impartial Judg<g ref="char:EOLhyphen"/>ment upon ſeveral points in theſe Authors, as probably he may imagine. For he accuſes <hi>Plato</hi> of growing flat in many places, but ſpeaks of the other as a moſt correct and unqueſti<g ref="char:EOLhyphen"/>onable writer; which is ſo far from being true, that there is not the leaſt glimpſe of reaſon for what he ſays: and where ſhall we meet with an Author that does not now and then for<g ref="char:EOLhyphen"/>get himſelf, and let ſlip ſome<g ref="char:EOLhyphen"/>thing juſtly to be carp'd at?</p>
+            </div>
+            <div n="27" type="chapter">
+               <pb n="121" facs="tcp:56950:71"/>
+               <head>
+                  <hi>CHAP. XXVII.</hi> Whether that which is plain and profitable, is to be preferr'd to Loftineſs, which is defective.</head>
+               <p>IT may not perhaps be un<g ref="char:EOLhyphen"/>ſeaſonable to examine in this place, whether is moſt to be preferr'd, be it in Proſe or Poetry, that which is Lofty and Defective, or that which is Plain; but withall very compleat: and again, whether a piece is moſt to be valued, ac<g ref="char:EOLhyphen"/>cording to the number or qua<g ref="char:EOLhyphen"/>lity of the good things con<g ref="char:EOLhyphen"/>tained therein? For theſe Que<g ref="char:EOLhyphen"/>ſtions, being naturally incident to the preſent Subject, muſt in<g ref="char:EOLhyphen"/>evitably be reſolv'd. Firſt then, that which is extoarrdinary
+<pb n="122" facs="tcp:56950:72"/>
+Great and Lofty, cannot have that naturall purity, that which is plain and eaſie, for that a too great care of being Polite and Elegant, does oftentimes de<g ref="char:EOLhyphen"/>generate into lowlineſs; and as thoſe who have vaſt Eſtates, muſt though unwillingly, neg<g ref="char:EOLhyphen"/>lect ſome one part or other; ſo, thoſe who aime at an ex<g ref="char:EOLhyphen"/>troardinary Loftineſs, cannot poſſibly but be careleſs in ſome few particulars. On the con<g ref="char:EOLhyphen"/>trary, 'tis very hard, if not im<g ref="char:EOLhyphen"/>poſſible, to finde any faults in a ſtile that is plain and indiffer<g ref="char:EOLhyphen"/>ent, for the fancy not venturing to mount too high, but obſer<g ref="char:EOLhyphen"/>ving a juſt Medium, remains ſecure, whereas in Loftineſs, it ſoares to ſo great a pitch, that 'tis apt to grow Giddy, and ſo be in continuall danger of fal<g ref="char:EOLhyphen"/>ling. Nor am I ignorant of
+<pb n="123" facs="tcp:56950:72"/>
+what may be Objected, that 'tis natural to judge of mens Wri<g ref="char:EOLhyphen"/>ting according to what is worſt in them, and that the faults which are obſerved, leave a ſtrong impreſſion upon the mind, when that which is exact and ſmooth paſſes currantly off; and though I have taken notice of ſeverall faults in <hi>Homer</hi> and the moſt remarkable Authors, and am perhaps one who will as little countenance them as any body, yet give me leave to ſay, that I look upon them to be very ſlight, and not ſo much to be accounted faults, as inſig<g ref="char:EOLhyphen"/>nificant miſtakes, which while their thoughts were wholly in<g ref="char:EOLhyphen"/>tended upon great things, they have careleſly let ſlip. In a word, I hold that a Lofty Stile, though in ſome places deficient, (ſeeing that deficiency pro<g ref="char:EOLhyphen"/>ceeds
+<pb n="124" facs="tcp:56950:73"/>
+from the very being Lofty) is to be prefer'd before that which is compleat and in<g ref="char:EOLhyphen"/>different. True 'tis, <hi>Apollonius</hi> who wrote the Poem of the <hi>Argonantes,</hi> do's never ſlacken. <hi>Theocritus</hi> (baiting ſome few things which are none of his own) has in all his Works no<g ref="char:EOLhyphen"/>thing but what is very delight<g ref="char:EOLhyphen"/>full. Yet after all, had you ra<g ref="char:EOLhyphen"/>ther be <hi>Apollonius</hi> or <hi>Theoeritus,</hi> then <hi>Homer Eratoſthenes? E<g ref="char:EOLhyphen"/>rigo</hi> is a piece not to be cenſur'd, but will you therefore reckon him a greater Poet then <hi>Ar<g ref="char:EOLhyphen"/>chillicus?</hi> who I confeſs is confus'd and wants order and Oeconomy in many parts of his Writings, but 'tis then only when that Divine <hi>Enthuſiaſme,</hi> with which he is hurried on, will not permit him to follow the <hi>Dictates</hi> of his own Judg<g ref="char:EOLhyphen"/>ment;
+<pb n="125" facs="tcp:56950:73"/>
+and ſo for <hi>Lyrick</hi> Poeſy; had you rather be <hi>Bachillides,</hi> then <hi>Pindar;</hi> or for <hi>Tragedy, Ion,</hi> then <hi>Sophocles?</hi> notwith<g ref="char:EOLhyphen"/>ſtanding theſe two <hi>(viz) Pa<g ref="char:EOLhyphen"/>chillides,</hi> and <hi>Ion,</hi> never ſtum<g ref="char:EOLhyphen"/>ble, but have a great deal of E<g ref="char:EOLhyphen"/>legancy, and <hi>Analogy,</hi> in whatſoever they write: which cannot be ſaid of <hi>Pindar</hi> and <hi>Sophocles;</hi> for in the height of their greateſt raptures, while they are Thundring and Light<g ref="char:EOLhyphen"/>ning (as I may ſo ſay) when they ſhou'd not, they moſt un<g ref="char:EOLhyphen"/>fortunately ſmother their own fancies. Yet is there any ſo<g ref="char:EOLhyphen"/>ber, and Judicious man, who will vouchſafe to compare all that <hi>Ion</hi> ever wrote, to that ſingle Play of <hi>Sophocles</hi>'s <hi>Oe<g ref="char:EOLhyphen"/>dipus.</hi>
+               </p>
+            </div>
+            <div n="28" type="chapter">
+               <pb n="126" facs="tcp:56950:74"/>
+               <head>
+                  <hi>CHAP. XXVIII.</hi> A Compariſon betwixt <hi>Hy<g ref="char:EOLhyphen"/>peride</hi> and <hi>Demoſthenes.</hi>
+               </head>
+               <p>NOw then, if we eſteem a piece according to the number and quality of the good things which are contained therein; 'twill follow that <hi>Hy<g ref="char:EOLhyphen"/>perides</hi> is cleerly to be prefer'd before <hi>Demoſthenes:</hi> for beſides that he is more Muſical, he has more accompliſhments requiſite to an Orator; in moſt of which he is very eminent, like the <hi>Olympick</hi> Gameſters, who per<g ref="char:EOLhyphen"/>form five ſeveral ſorts of ex<g ref="char:EOLhyphen"/>erciſes, and though in any one they come ſhort of the chief Profeſſors; yet in the whole,
+<pb n="127" facs="tcp:56950:74"/>
+they ſurpaſs the common rank. <hi>Demoſthenes</hi> has not any one excellence, which he has not imitated, unleſs it be that of Compoſition or placing the ſen<g ref="char:EOLhyphen"/>tences: he has the ſmoothneſs of <hi>Lycias,</hi> he knows how and where to be ſoft and tender; and does not expreſs all things with one and the ſame tone as <hi>Demosthenes</hi> does; he is very pleaſant in his Ethicks: the livelineſs of his ſtile is temper'd with a certain agreeable and blooming ſweetneſs: There is in his works abundance of very facetious things, his way of deriding is very genteel and handſom, he is wonderfully expert in handling an Irony, his raileries are not dry or forc'd (like theirs who Ape the <hi>Attick</hi> ſtile) but lively and tou<g ref="char:EOLhyphen"/>ching; he is very quick at an<g ref="char:EOLhyphen"/>ſwering
+<pb n="128" facs="tcp:56950:75"/>
+all objections by turn<g ref="char:EOLhyphen"/>ing 'em into ridicule; he has ſeveral delightful and Comical humours, which always take where he aims, and are moſt in<g ref="char:EOLhyphen"/>comparably enamel'd with ſhort witty ſentences; he has a natu<g ref="char:EOLhyphen"/>ral Genius to ſtir up, and beget pity, he is very copious in his fabulous relations, he is extream<g ref="char:EOLhyphen"/>ly eaſie in his digreſſions, he turns about, and takes breath where he pleaſes, as may be ſeen in thoſe fictions which he relates of <hi>Latona;</hi> Laſtly, he has made a Funeral oration, which is ſo curiouſly penn'd, that I queſtion very much whether it can be match'd: on the other hand, <hi>Domoſthenes</hi> is not very good at Ethicks, his ſtile is not full or luxuriant, but ſomewhat harſh. In a word, he wants al<g ref="char:EOLhyphen"/>moſt all thoſe qualities juſt be<g ref="char:EOLhyphen"/>fore
+<pb n="129" facs="tcp:56950:75"/>
+mentioned; if he ſtrives to be pleaſant rather then not di<g ref="char:EOLhyphen"/>vert, he makes himſelf ridiculous. And the more he endeavours at being delightful, he is the fur<g ref="char:EOLhyphen"/>ther off. Yet after all, for that in my mind all theſe excellencies, which are thus crowded in <hi>Hy<g ref="char:EOLhyphen"/>perides,</hi> have nothing in 'em that is great and lofty: they diſcover him to be at beſt, but a weak and ſober orator, who does not rouze the mind, and therefore no one was ever much tranſ<g ref="char:EOLhyphen"/>ported at the reading his works. Whereas <hi>Demosthenes</hi> contri<g ref="char:EOLhyphen"/>ving in himſelf all the qualities of an Orator truly born to lof<g ref="char:EOLhyphen"/>tineſs, and perfectly accompliſh<g ref="char:EOLhyphen"/>ed by ſtudy <hi>(viz)</hi> That ſtately and Majeſtical accent, thoſe lively movements, that fulneſs, ſharpneſs, readineſs, and what is moſt to be valued in him; that
+<pb n="130" facs="tcp:56950:76"/>
+vehemence of expreſſion, which no man elſe cou'd ever attain, or come near to; with the Aſſiſtance of all theſe divine qualities, which I look upon as ſo many extraordinary gifts from Heaven, and which I may not preſume to call humane en<g ref="char:EOLhyphen"/>dowments; he hath ſupplanted all the moſt famous Orators that ever were, and (if I may ſo ſay) has violently thrown down, and ecclipſed their glories by his Thunder and Lightning. For in thoſe things, wherein his excellency lies, he does ſo much exceed all others; that he makes ſufficient amends for thoſe wherein he is deficient, and without doubt 'tis much eaſier to look ſtedfaſtly, and with open eyes upon the Thunderbolts which ſhoot from Heaven, then not to be moved at thoſe violent
+<pb n="131" facs="tcp:56950:76"/>
+and paſſionate expreſſions, with which his writings are very full.</p>
+            </div>
+            <div n="29" type="chapter">
+               <head>CHAP. XXIX. <hi>Of</hi> Plato <hi>and</hi> Lyſias, &amp;c.</head>
+               <p>AS for <hi>Plato</hi> there is yet a<g ref="char:EOLhyphen"/>nother difference, for he out-do's <hi>Lyſias,</hi> not only in the nature, but number of his Ex<g ref="char:EOLhyphen"/>cellencies. Nay more, thoſe defects which <hi>Lyſias</hi> has, render him leſs inferiour to <hi>Plato,</hi> then thoſe faults, with which he do's mightily abound. What there<g ref="char:EOLhyphen"/>fore is the reaſon, that theſe Di<g ref="char:EOLhyphen"/>vine Authors have neglected an exact delicacy and correctneſs, to look after nothing, but Lof<g ref="char:EOLhyphen"/>tineſs in their Writings? 'Tis, that nature has not form'd Man like a heavy ſordid <hi>Animal,</hi> but
+<pb n="132" facs="tcp:56950:77"/>
+ſent him into the World, as in<g ref="char:EOLhyphen"/>to a Spacious <hi>Theatre</hi> to be a Spectator of all that is Acted therein. That ſhe has, I ſay, brought him into the Liſt, as a noble Combatant, that is, to aim at nothing but Glory. And therefore has ſhe created in the Soul a fervent deſire after every thing that apears moſt tranſcen<g ref="char:EOLhyphen"/>dently great and magnificent. And do we not ſee, that the Circumference of the whole World, is not large enough to contain the thoughts of Man, but that they oftentimes Mount above the Heavens, and o're leap the bounds of Nature her<g ref="char:EOLhyphen"/>ſelf. And without doubt, if we do but caſt our Eyes upon any one, who throughout the whole courſe of his life, has no one action that is not great and iluſtrious, 'twill eaſily be
+<pb n="133" facs="tcp:56950:77"/>
+underſtood, to what end and purpoſe we were firſt created; hence it is, that we admire not little Brooks, though the wa<g ref="char:EOLhyphen"/>ter be never ſo clear and uſeful for us, but are extreamly de<g ref="char:EOLhyphen"/>lighted with, and ſurpriz'd at the ſight of the <hi>Danube,</hi> the <hi>Nile,</hi> the <hi>Rhine,</hi> and above all the main <hi>Ocean.</hi> We are not at all concern'd to ſee a little Flame, which we our ſelves have kin<g ref="char:EOLhyphen"/>dled, retain its brightneſs, but are ſtartled at thoſe which come from Heaven, though they are conſum'd e're ſcarce they can appear, and there is nothing ſo wonderfull in nature as thoſe Furnaces in Mount <hi>Aetna,</hi> which from its Abyſs do's ſome<g ref="char:EOLhyphen"/>times throw out. <hi>Pint. Pyth.</hi> 1.</p>
+               <q>Stones, Rocks, and Streams of Flame, <hi>&amp;c.</hi>
+               </q>
+               <p>
+                  <pb n="134" facs="tcp:56950:78"/>From what has been ſaid we may conclude, that what<g ref="char:EOLhyphen"/>ever is profitable and neceſſary, is not to be wondred at, as be<g ref="char:EOLhyphen"/>ing eaſily attain'd, but that all which is extroardinary, and be<g ref="char:EOLhyphen"/>yond common expectation, is very admirable and ſurprizing.</p>
+            </div>
+            <div n="30" type="chapter">
+               <head>
+                  <hi>CHAP. XXX.</hi> That the faults in Loftineſs are excuſable.</head>
+               <p>ANd now, as to the great Maſters of Oratory in whom both what is Lofty and uſeful do concur, we muſt needs allow, that in thoſe juſts before mentioned, (though not alto<g ref="char:EOLhyphen"/>gether faultleſs) there is ſome<g ref="char:EOLhyphen"/>thing Supernatural and Divine, two qualities which almoſt e<g ref="char:EOLhyphen"/>qual
+<pb n="135" facs="tcp:56950:78"/>
+us to the Gods themſelves, whilſt a never ſo great excel<g ref="char:EOLhyphen"/>lency in all the reſt, beſpeaks us no more then men. All the benefit we have in committing no faults, is that we avoid being cenſur'd; but in being Lofty we become admirable. What ſhall I then ſay, that any one of thoſe ſtately and ſublime thoughts, which are in the works of thoſe moſt incom<g ref="char:EOLhyphen"/>parable Authors, may throughly reconcile us to the Errors, or rather miſtakes, they have been guilty of? Nay further, I will maintaine, that if all the faults which are in <hi>Homer, Demoſt<g ref="char:EOLhyphen"/>henes, Plato,</hi> and thoſe other famous Writers, were ſumm'd up, they would not amount to a Moyety, Nay not the thou<g ref="char:EOLhyphen"/>ſand part of the good things they have ſaid. Wherefore the
+<pb n="136" facs="tcp:56950:79"/>
+moſt envious in all Ages have yielded the <hi>Trophy</hi> to 'em, and no body, as yet, being able to diſpute it with 'em, they have bore it away hitherto, and will in all probabillity keep it.</p>
+               <q>
+                  <l>As long as Streames do in the Meadows run,</l>
+                  <l>Or Trees at Spring, put their Green Livry's on.</l>
+               </q>
+               <p>It may be objected, that a <hi>Co<g ref="char:EOLhyphen"/>loſſus</hi> which has ſome faults, is no better then a ſmall ſtatue that is compleat. As for ex<g ref="char:EOLhyphen"/>ample, <hi>Polycletus</hi>'s <hi>Souldier.</hi>
+                  <note n="*" place="margin">
+                     <hi>Odoryſphorus</hi> a ſmall ſtatue of <hi>Polycletus</hi>'s</note> To this I anſwer, That in artificial matters, the Workmanſhip and pains is moſt regarded, whereas in the work of nature, that is moſt to be valued, which is moſt prodigious and magni<g ref="char:EOLhyphen"/>ficent,
+<pb n="137" facs="tcp:56950:79"/>
+ſeeing it is the property of man to reaſon: beſides, in a Statue, we examine how like 'tis to the thing it repreſents; but in Speech (as I have already ſaid) we look for ſomething that is Supernatural and Di<g ref="char:EOLhyphen"/>vine. Now (to keep cloſe to what we have already laid down) ſince 'tis impoſſible, that the fancy ſhould continue long at a high pitch, without being ſubject to totter; and that Art is the only thing which can buoy it up. 'Tis very ne<g ref="char:EOLhyphen"/>ceſſary to a Soveraign perfect<g ref="char:EOLhyphen"/>ion of Loftineſs, that there be a mutual concurrence and aſſiſtance of Art and Nature. Thus much I have thought fit to ſay upon theſe occurrent queſtions; not but that every man is freely left to his own private opinion.</p>
+            </div>
+            <div n="31" type="chapter">
+               <pb n="138" facs="tcp:56950:80"/>
+               <head>
+                  <hi>CHAP. XXXI.</hi> Of Similes, Compariſons, and Hyperboles.</head>
+               <p>SImiles, and Compariſons, have a great reſemblance with Metaphors, and in this only they differ<note n="*" place="margin">This place is very defici<g ref="char:EOLhyphen"/>ent, and all that our Au<g ref="char:EOLhyphen"/>thor had ſaid of theſe figures is wanting.</note> Such another is this Hyperbole, <hi>al<g ref="char:EOLhyphen"/>though your brains are in your head, and you do not trample them un<g ref="char:EOLhyphen"/>der your heels.</hi> Wherefore we ought carefully to conſider, how far a figure may be ſtretch<g ref="char:EOLhyphen"/>ed, leaſt, like a ſtring that is ſcrew'd too high, it breaks, and produces an effect clear contra<g ref="char:EOLhyphen"/>ry to what we expected. As
+<pb n="139" facs="tcp:56950:80"/>
+                  <hi>Iſocrates</hi> in his <hi>Panegyrick,</hi> af<g ref="char:EOLhyphen"/>fecting to put a ſtrong Empha<g ref="char:EOLhyphen"/>ſis upon every thing he ſaid, is fallen I know not how into the Errors of a meer School-boy. The deſign of the <hi>Panegyrick</hi> is to manifeſt, that the <hi>Atheni<g ref="char:EOLhyphen"/>ans</hi> have been more ſervicable to <hi>Greece</hi> then the <hi>Lacedemo<g ref="char:EOLhyphen"/>nians,</hi> you ſhall ſee what mea<g ref="char:EOLhyphen"/>ſure he has taken. <hi>Since Speech has a naturall Power to make great things ſeem ſmall, and ſmall great: ſince it knows how to make that which is Old appear New; and again, that which is New to paſs for Old.</hi> How (ſays one) is it ſo <hi>Iſocrates,</hi> do you intend to invert the nature of thoſe things which relate to the <hi>Athenians,</hi> and <hi>Lacedemonians.</hi> See how this unſeaſonable com<g ref="char:EOLhyphen"/>mendation of Speech, turns to an Exodium, to perſwade the
+<pb n="104" facs="tcp:56950:81"/>
+audience, nor to gave credit to what he ſays. That therefore which has been ſaid of all Fi<g ref="char:EOLhyphen"/>gures in generall, may be ap<g ref="char:EOLhyphen"/>plyed in particular to Hyper<g ref="char:EOLhyphen"/>boles <hi>(viz.)</hi> That they never ſucced better then when they are ſo diſtinguiſh'd, as not to be taken for Hyperboles, which conſtantly happen;, when they are powred out in a paſſion a<g ref="char:EOLhyphen"/>midſt ſome great circumſtance. As is that of <hi>Thucydides</hi> in his account of thoſe who dy'd in <hi>Sicilie. The Sicilians going thither made a great Slaughter of thoſe who were thrown into the River, immediatly the Water was coloured with the bloud of thoſe wretches, nevertheleſs as muddy and thick with bloud as 'twas, they drank it, nay and ſome fought about it.</hi> 'Tis not very credible that men ſhould drink Dirt and
+<pb n="141" facs="tcp:56950:81"/>
+bloud, nay and fight for it, but the violence of the paſſion, in the middle of that ſtrange cir<g ref="char:EOLhyphen"/>cumſtance, wou'd not ſuffer a reaſon to be given for what was ſaid. So is it of that which <hi>Heroditus</hi> has concerning thoſe <hi>Lacedemonians,</hi> who fought in the ſtraits of <hi>Thermopylae. They defended themſelves for ſome time in that place, with what weapons they had, and with their Hands and Teeth, till the</hi> Barbarians <hi>by continual ſhooting at them, had buried them under their Arrows.</hi> What will you ſay of this Hy<g ref="char:EOLhyphen"/>perbole? what likely hood is there, that theſe men ſhou'd de<g ref="char:EOLhyphen"/>fend themſelves with their Hands and Teeth againſt whole Troops that were Armed, till they were buried under the enemies Arrows? Yet is this pro<g ref="char:EOLhyphen"/>bable, for that the thing ſeems
+<pb n="142" facs="tcp:56950:82"/>
+not to be ſought after to ex<g ref="char:EOLhyphen"/>preſs but that the Hyperbole does naturally proceed from the very eſſence of the thing. So that (as I have already obſerved) there is no ſuch remedy againſt the too great boldneſs of ſuch Figures, as not to make uſe of 'em, but to a fit purpoſe, that is, the being pathetical and lofty. This is ſo infallible a truth, that we ſay ſeveral commical things, which in themſelves are abſurd, yet paſs for probabilities, becauſe they excite paſſion, that is laughter, which is a paſſion of the Soul cauſed by ſomething that is delightfull. There is this paſſage in a commical Poet, <hi>The Land he has in the Country, is no larger then a</hi> Lacedemonian <hi>Epistle.</hi> Laſtly, Hyperboles may ſerve as well to diminiſh
+<pb n="143" facs="tcp:56950:82"/>
+any thing, as to add to it, for <hi>Exageration</hi> is proper to both theſe different effects, and <hi>Dya<g ref="char:EOLhyphen"/>ſirmus,</hi> (which is a kind of Hy<g ref="char:EOLhyphen"/>perbole) is nothing but an Ex<g ref="char:EOLhyphen"/>ageration of a thing that is mean and ridiculous.</p>
+            </div>
+            <div n="32" type="chapter">
+               <head>
+                  <hi>CHAP. XXXII.</hi> Of Compoſition or placing of Sentences.</head>
+               <p>OF thoſe five branches of Loftineſs, which we ree<g ref="char:EOLhyphen"/>koned up in the beginning of this Treatiſe, there yet remains the fifth to be examined, which is, <hi>The compoſition or placing of Sentences.</hi> But ſince we have already handled this Topick in two entire volumes, wherein we have been as copious, as the long obſervation we have made
+<pb n="144" facs="tcp:56950:83"/>
+wou'd permit. It ſhall ſuffice in this place to ſay no more, than what is abſolutely neceſſary to the preſent ſubject, <hi>(viz.)</hi> That Harmony which has a power of perſwading, or delighting, is not naturally given to man only, but that even Inſtruments, alto<g ref="char:EOLhyphen"/>gether inanimate, have a ſtrange influence over our affections. For do not we find, that the ſound of a Flute does move the very ſouls of thoſe who hear it, and tranſport 'em beyond them<g ref="char:EOLhyphen"/>ſelves? that it charms their Ears with the ſoft movement of its cadence, and forces 'em to bear a part in that Heavenly Muſick, with a proportionable motion of their Bodies. Nor is it ſo of Flutes only, but all other tunable Inſtruments. For tho' of themſelves the Notes ſigni<g ref="char:EOLhyphen"/>fie nothing, yet by being often
+<pb n="145" facs="tcp:56950:83"/>
+interchanged, and ſhuffl'd one with another, they beget ſo de<g ref="char:EOLhyphen"/>licate an Air, that it tranſports, and raviſhes, all thoſe who hear it; Yet after all, they want the power of perſwaſion, and are but the Ecchoes, or (if I may ſo ſay) Baſtards of a voice, and not effects of the nature of man. What then may we not ſay of compoſition? which is the Har<g ref="char:EOLhyphen"/>mony of Speech, the uſe where<g ref="char:EOLhyphen"/>of is natural to man; which does not only ſtrike the ear, but penetrate the mind, which muſters up ſuch different words, thoughts, things, and Elegan<g ref="char:EOLhyphen"/>cies ſuitable to the affections of the Soul, which by a mixture and variety of pleaſing ſounds, crept into the mind, does cre<g ref="char:EOLhyphen"/>ate in him who hears 'em, the ſame paſſions, that the Author himſelf has; and which upon
+<pb n="146" facs="tcp:56950:84"/>
+this ſtately pile of words raiſes that noble Structure of loftineſs. Can we deny, but that it con<g ref="char:EOLhyphen"/>tributes much to the Greatneſs, Majeſty, Statelineſs, and all other excellencies of Speech; and that having an abſolute command over the mind, it can at all times Elevate and raviſh the ſame. This certainly is a truth ſo approved, and gene<g ref="char:EOLhyphen"/>rally received, that to diſpute it muſt needs argue a great ignorance and madneſs.<note n="*" place="margin">Here our Author for an example of the placing of Sen<g ref="char:EOLhyphen"/>tences, brings a paſ<g ref="char:EOLhyphen"/>ſage out of <hi>Demoſthe<g ref="char:EOLhyphen"/>nes.</hi> But becauſe that which he ſays, de<g ref="char:EOLhyphen"/>pends clearly upon the Greek Tongue, and becauſe I find it not in the French I have omitted it.</note> 'Tis with Speech as with the Body, which owes its chiefeſt perfe<g ref="char:EOLhyphen"/>ction to the well ſetting to<g ref="char:EOLhyphen"/>gether, and juſt proportion of the Members: for though any one part diſ<g ref="char:EOLhyphen"/>joynted
+<pb n="147" facs="tcp:56950:84"/>
+from the reſt has no<g ref="char:EOLhyphen"/>thing in it that is temarkable, yet all together make a perfect Body. So if the parts of Lofti<g ref="char:EOLhyphen"/>neſs be taken aſunder, Loftineſs it ſelf is deſtroyed; but when they are drawn into a Body, and firmly joynted by Harmony, the turn of every Period gives them an Emphaſis. Not unfitly therefore may Loftineſs in re<g ref="char:EOLhyphen"/>ſpect of periods, be compared to a Feaſt, for which many per<g ref="char:EOLhyphen"/>ſons club: And hence is it, that ſeveral Poets, and other writers have ſucceeded ſo well, not<g ref="char:EOLhyphen"/>withſtanding they had no na<g ref="char:EOLhyphen"/>tural Genius to Loftineſs, and that their expreſſions are for the moſt part mean and ordina<g ref="char:EOLhyphen"/>ry, ſince by the delicate con<g ref="char:EOLhyphen"/>nexion and ordering of the Sen<g ref="char:EOLhyphen"/>tences, they have put a gloſs upon the courſeneſs of their ex<g ref="char:EOLhyphen"/>preſſions;
+<pb n="148" facs="tcp:56950:85"/>
+                  <hi>Phileſtus</hi> is one of theſe, and ſo is <hi>Ariſtophanes</hi> in ſome places, and <hi>Euripides</hi> in many: as is already ſufficiently ſhewed. For example, <hi>Hercules</hi> in the laſt of theſe three Au<g ref="char:EOLhyphen"/>thors, after he had kil'd his Chil<g ref="char:EOLhyphen"/>dren, ſays,
+<q>
+                     <l>So many Plagues have crowded up my Breſt,</l>
+                     <l>There is no room for any other Gueſt.</l>
+                  </q>
+This thought is very trivial, yet in the whole there is ſomething that is Muſical and pleaſant, which gives weight and vigour to it; and without doubt if we invert the method of this Period, we ſhall apparently find, how much happier <hi>Euripides</hi> is in the compoſition and placing of his Sentences, then the ſub<g ref="char:EOLhyphen"/>ſtance
+<pb n="149" facs="tcp:56950:85"/>
+of his thoughts. Again, in his Tragedy intituled <hi>Dirce carried away by a Bull,</hi> there is this paſſage.</p>
+               <q>
+                  <l>Round then he turn'd and run<g ref="char:EOLhyphen"/>ning to and fro,</l>
+                  <l>Where e're his rage, and madneſs made him go</l>
+                  <l>He drew the Woman, Tree, and Craggy-Rock.</l>
+               </q>
+               <p>True it is, this thought is great and noble, but withall it muſt needs be confeſs'd that it becoms yet greater, by that gentle and eaſy Harmony wherewith the Sentences are not huddl'd to<g ref="char:EOLhyphen"/>gether like a heap of rubbiſh by its own weight, but linck'd to each other with diſtinct and proportionable ſtops, which are as ſo many foundations, where<g ref="char:EOLhyphen"/>on the ſuperſtructure of the whole Speech is raiſed.</p>
+            </div>
+            <div n="33" type="chapter">
+               <pb n="105" facs="tcp:56950:86"/>
+               <head>
+                  <hi>CHAP. XXXIII.</hi> Of the meaſure of Periods.</head>
+               <p>ON the other hand. There is nothing that depreſſes and abates Loftineſs more then thoſe numbers which are broak<g ref="char:EOLhyphen"/>en and pronounced in haſte, ſuch as are <hi>Pyrreckei, Trochaei,</hi> and <hi>Dichoraei,</hi> Fit only for the nimble movements of a dance, for that all theſe kind of Feet and meaſures, have no more then a certain quaintneſs and agreement of meeter, which is alwayes the ſame, and therefore very unable to produce any effects in the Soul. Yet what I look upon to be worſt of all, is, that, as when any thing is ſung to us, we do not mind the
+<pb n="151" facs="tcp:56950:86"/>
+ſenſe of the words, but are alto<g ref="char:EOLhyphen"/>gether taken up with the plea<g ref="char:EOLhyphen"/>ſantneſs of the Tune; ſo what<g ref="char:EOLhyphen"/>ſoever is compos'd of theſe num<g ref="char:EOLhyphen"/>bers, do's not move the Paſſions of the mind which ought to be the product of Speech, but fills the Ear with the move<g ref="char:EOLhyphen"/>ment of the Cadence, or pro<g ref="char:EOLhyphen"/>portion of time; and thereby the Audience fore-knowing what muſt neceſſarily follow next, anticipates him that is Speaking, and (as in a Dance) takes notice of the Cadence be<g ref="char:EOLhyphen"/>fore it happens. Another thing which do's very much weaken Speech, is when the Periods, are nicely order'd, when the mem<g ref="char:EOLhyphen"/>bers thereof are too conciſe, and and have too many ſhort Sylla<g ref="char:EOLhyphen"/>bles tackt together in thoſe pla<g ref="char:EOLhyphen"/>ces where they ought to be di<g ref="char:EOLhyphen"/>vided. Cautiouſly therefore
+<pb n="152" facs="tcp:56950:87"/>
+muſt we avoid too ſhort periods; for there is nothing that ſtifles Loftineſs more then the endea<g ref="char:EOLhyphen"/>vouring to comprehend it in a ſmall ſpace. Now when I ſpeak of ſhort Periods, I mean not thoſe which have their due extent and proportion, but ſuch only as are too little, &amp; as 'twere maym'd or imperfect, which lat<g ref="char:EOLhyphen"/>ter ſerve onely to confound the underſtanding, whereas the for<g ref="char:EOLhyphen"/>mer do direct and enlighten it. Not but that Periods which are too long, and all Sentences in<g ref="char:EOLhyphen"/>ſerted for no other reaſon then the Impertinent lengthning of Speech, are altogether as bad, and perfectly Excrementitious.</p>
+            </div>
+            <div n="34" type="chapter">
+               <pb n="153" facs="tcp:56950:87"/>
+               <head>
+                  <hi>CHAP. XXXIV.</hi> Of the meanneſs of Words</head>
+               <p>AMongſt thoſe things, which tend ſo much to the Embaſening of Speech, we may very well reckon that of Meanneſs of Words. Therefore do we find in <hi>Herodotus,</hi> a deſcription of a Tempeſt, moſt excellent, I confeſs, as to the Senſe, but crampt in many pla<g ref="char:EOLhyphen"/>ces with very Bald Words. As when he ſaies <hi>the Sea began to</hi>
+                  <note n="*" place="margin">The Greek has it <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, which ſignifies <hi>Boyl up,</hi> but becauſe in our Language that word ſounds well. I have ra<g ref="char:EOLhyphen"/>ther followed the French and rendr'd it <hi>rum<g ref="char:EOLhyphen"/>ble.</hi>
+                  </note> 
+                  <hi>Rumble.</hi> The ill ſound of this word <hi>Rumble,</hi> takes from the Greatneſs of his thought. <hi>The Wind</hi> (ſaid he in another place) <hi>tost 'em very much,
+<pb n="154" facs="tcp:56950:88"/>
+and thoſe who were ſcatterd by the Tempeſt made a diſagreeable end.</hi> This word tos'd is very mean, and the <hi>Epethite, diſagreeable,</hi> is improper to expreſs an acci<g ref="char:EOLhyphen"/>dent of that nature. So likewiſe <hi>Theopompus</hi> the Hiſtorian, has made a Deſcription of the King of <hi>Perſia's</hi> expedition into <hi>E<g ref="char:EOLhyphen"/>gypt,</hi> which would be very ad<g ref="char:EOLhyphen"/>mirable, were it not ſpoyl'd by the baſeneſs of many of the words. <hi>Is there a City or Na<g ref="char:EOLhyphen"/>tion</hi> (ſaies this Hiſtorian) <hi>through<g ref="char:EOLhyphen"/>out all</hi> Aſia, <hi>that has not ſent</hi> Embaſſadors <hi>to the King? Is there any rarity or precious thing either of the Growth, or Manu<g ref="char:EOLhyphen"/>facture of any of theſe Countries, which has not been preſented to him? What a quantity of Arras, and rich Carpets, ſome red, ſome white, and ſome party-col<g ref="char:EOLhyphen"/>lour? How many Embroyder'd
+<pb n="155" facs="tcp:56950:88"/>
+Tents, furniſh'd with all things neceſſary? How many coſtly Robes, and Beads, How many Gold and Silver Veſſels, ſome ſet with Diamonds, others moſt curiouſly engrav'd, beſides all this a vaſt deal of Armour, a<g ref="char:EOLhyphen"/>fter the</hi> Barbarian <hi>and</hi> Greci<g ref="char:EOLhyphen"/>an <hi>Faſhion, an innumerable head of Cattle for carriages, and Beaſts fitted for Sacrifice, how many Buſhels full of dilicious proviſion, how many Chests, and Sacks full of Books, and other <g ref="char:V">Ʋ</g>tenſils, to<g ref="char:EOLhyphen"/>gether with ſo great a quantity of high ſeaſon'd meat, and all ſorts of Fowl, that whoſoever ſees 'em at a diſtance would take them for little Hills riſing out of the Earth.</hi> Here, from the high<g ref="char:EOLhyphen"/>eſt pitch of Loftineſs he tumbles down to the loweſt degree of flatneſs, and in that place too where ſhe ſhould riſe higheſt.
+<pb n="156" facs="tcp:56950:89"/>
+For when ſpeaking of the Glo<g ref="char:EOLhyphen"/>rious proviſion, he makes men<g ref="char:EOLhyphen"/>tion of Buſhels, Ragous, and Sacks, he ſeems to deſign no<g ref="char:EOLhyphen"/>thing more then the deſcription of a Kitchin; and, as if any one, who is to ſet out Furniture, ſhould amidſt Embroydered Tents and Silver and Gold Cups, place Sacks and Buſhels, it muſt neceſſarily make a very bad appearance; ſo if amidſt the Or<g ref="char:EOLhyphen"/>nament of Speech, we make uſe of mean and ordinary words, they are as ſo many Clouds or Miſts, which obſcure the luſtre of Expreſſion. He needed one<g ref="char:EOLhyphen"/>ly to have made ſome little al<g ref="char:EOLhyphen"/>teration, and as to thoſe Hills of ſeaſon'd meat, and the reſt of the Proviſions, to have ſaid in general that they ſent the King <hi>Cammels,</hi> and many <hi>Carriage</hi> Horſes loaden with all manner
+<pb n="157" facs="tcp:56950:89"/>
+of dainties, or heaps of the moſt ſavoury, and delicious Food imaginable; or (if you will) all the delicate and choice Diſhes that the <hi>Purveyors</hi> them<g ref="char:EOLhyphen"/>ſelves could poſſibly expect ſhould pleaſe their Maſters cu<g ref="char:EOLhyphen"/>rious Pallat. For we muſt not deſcend from what is great and Lofty, to mean and inconſide<g ref="char:EOLhyphen"/>rable things, unleſs there be a very urgent neceſſity. The words muſt be anſwerable to the ſtatelineſs of the Subject, and therein 'tis good to imitate na<g ref="char:EOLhyphen"/>ture, which has ſo fram'd mans Body as not to expoſe the un<g ref="char:EOLhyphen"/>decent and filthy part to out<g ref="char:EOLhyphen"/>ward view — But, (to uſe <hi>Xenophons</hi> own words) <hi>She has conceal'd and remov'd the loathſom parts as far as may be, leſt they ſhould ſpoyl the beauty of the Creature.</hi> Yet after all,
+<pb n="158" facs="tcp:56950:90"/>
+we need not be too nice and criticall, in examining what words are lowly in Speech. And, to conclude, ſince we have ſet down, what 'tis that Elevates and gives a vigour to Speech, 'tis eaſie to infer, that for the moſt part, the contrary is that which degrades and weakens it.</p>
+            </div>
+            <div n="35" type="chapter">
+               <head>
+                  <hi>CHAP. XXXV.</hi> The Cauſes of the decay of Fancy.</head>
+               <p>NOw (dear <hi>Terentianus</hi>) there remains but one thing more to be conſidered, which is the queſtion that was put to me ſometime ſince by a Philoſopher, very material to be explained, and therefore more particularly for your further
+<pb n="159" facs="tcp:56950:90"/>
+Inſtruction; I have thought fit to annex it to this Treatiſe. Amongſt ſeveral other things, I cannot but admire (ſaid he) how it comes to paſs, that in the preſent age, there are ſo many very able and eloquent Orators, that there are, I ſay ſo many, who have a lively and clean way of expreſſing them<g ref="char:EOLhyphen"/>ſelves, and yet few or none who can attain to Loftineſs. Is it not (continued he) as is com<g ref="char:EOLhyphen"/>monly ſuppos'd, that Democra<g ref="char:EOLhyphen"/>cie is the beſt Nurſe for great Genius<hi>'s;</hi> ſince what ever is famous in Oratory, flouriſhed with, and is now extinct with that ſort of Government. And doubtleſs, there is nothing that elevates the mind of men more then Liberty, or that excites and ſtirs them up to an Emulation, and ſtrong ambition of o're top<g ref="char:EOLhyphen"/>ping
+<pb n="160" facs="tcp:56950:91"/>
+all others. Beſides the en<g ref="char:EOLhyphen"/>couragements and rewards which are found in a Common<g ref="char:EOLhyphen"/>wealth, do give an Edge to, and (if I may ſo ſay) poliſh the minds of Orators, making them take great care to improve their natural Talent. In ſo much that their very works do manifeſt the liberty of their Country. But we (ſaid he go<g ref="char:EOLhyphen"/>ing on) who from our Child<g ref="char:EOLhyphen"/>hood have felt the Tyranny of an abſolute Government, and have been perplexed with the Laws and Cuſtoms of Monar<g ref="char:EOLhyphen"/>chy, when we were young, and capable of any impreſſion. In a word, we who have never taſted of this lively and plenti<g ref="char:EOLhyphen"/>full ſpring of Eloquence, I wou'd ſay, liberty, can only ex<g ref="char:EOLhyphen"/>pect to become great and re<g ref="char:EOLhyphen"/>markable flatterers. Wherefore
+<pb n="161" facs="tcp:56950:91"/>
+'tis allowed (ſaid he) that one born to Slavery may be capa<g ref="char:EOLhyphen"/>ble of other Sciences, but no Slave can ever attain to that of Oratory. For the mind (con<g ref="char:EOLhyphen"/>tinued he) being kept under, and ſubject to controll, dares not attempt any thing that is bold or noble. But all the Spi<g ref="char:EOLhyphen"/>rit and vigour it ever had, does ſenſibly decay. And it al<g ref="char:EOLhyphen"/>ways remains fetter'd as in a Priſon. In a word, (to uſe <hi>Ho<g ref="char:EOLhyphen"/>mers</hi> expreſſion)
+<q>
+                     <l>The day which makes a Freeman be Slave</l>
+                     <l>Robs him of half his worth. —</l>
+                  </q>
+If therefore it be true (which is ſo frequently reported) that thoſe Boxes wherein <hi>Pygmies</hi> or <hi>Dwarfs</hi> are bred, do not only hinder 'em from growing to a
+<pb n="162" facs="tcp:56950:92"/>
+full Stature, but make even thoſe little Animalls, leſs, according to the Band which goes round about; So ſlavery (to give it a Definition) is a kind of Pri<g ref="char:EOLhyphen"/>ſon, wherein the Soul famiſhes and pines away, I am not ig<g ref="char:EOLhyphen"/>norant that 'tis very eaſie, and natural for man to find fault with the preſent times, but take heed that<note n="*" place="margin">There is much wanting in this place, and here our Author takes up the queſtion himſelf.</note> And certainly (ſaid I taking up the queſtion) If the eaſe of a too long Peace, is a<g ref="char:EOLhyphen"/>ble to ruſt the brighteſt Souls, <hi>à Fortiori,</hi> this endleſs War, which has ſo long infeſted theſe parts, is a ſtrong obſtacle to our preſent deſires: Beſides thoſe inſeparable paſſi<g ref="char:EOLhyphen"/>ons, which attend this life, throw us daily into ſome confu<g ref="char:EOLhyphen"/>ſion and diſorder: So that 'tis
+<pb n="163" facs="tcp:56950:92"/>
+the Epidemical diſeaſe of Co<g ref="char:EOLhyphen"/>vetouſneſs, and immoderate Love of Pleaſure, which (to ſay true) has brought us into ſlave<g ref="char:EOLhyphen"/>ry, or rather a Gulph in which all our thoughts and affections are ſwallowed up. There is no paſſion ſo mean and ſordid as Avarice, and no Vice ſo foul as Senſuality. I do not ſee there<g ref="char:EOLhyphen"/>fore how 'tis poſſible, that thoſe who ſet ſo great a value upon Riches, as even to Idolize them, can be infected with that diſ<g ref="char:EOLhyphen"/>eaſe, without being lyable to all the ill ſymptoms with which 'tis naturally attended. And doubtleſs, Prodigality, Rioting, and ſuch like Debaucheries, are the inſeperable Companions of immoderate Riches; by whoſe aſſiſtance, they open the Gates of Cities, and Houſes, and en<g ref="char:EOLhyphen"/>tring thereinto, take poſſeſſion.
+<pb n="164" facs="tcp:56950:93"/>
+But ſcarce have they reſided there for any time, when they begin to build their Neſts, and (according to the opinion of the Wiſe) ſtrive to increaſe and multiply. Obſerve then what their Progeny is, they beget Pride and Luxury, the true off<g ref="char:EOLhyphen"/>ſprings of ſuch Parents; which if once ſuffer'd to brood in us, will hatch Inſolence, Unrulineſs, Im<g ref="char:EOLhyphen"/>pudence, and all thoſe other in<g ref="char:EOLhyphen"/>exorable Tyrants of the Soul. As ſoon therefore as any one, laying aſide all the thoughts of Virtue, gives himſelf over to ſuch frivolous and tranſitory things; he muſt neceſſarily ex<g ref="char:EOLhyphen"/>pect all theſe fatall conſequences before mentioned. He cannot look beyond himſelf, and there<g ref="char:EOLhyphen"/>fore be the Author of nothing but what is very mean and or<g ref="char:EOLhyphen"/>dinary. And if he ever had any
+<pb n="165" facs="tcp:56950:93"/>
+thing that was great or Lofty, in a little time, it withers and dries up, till a generall conta<g ref="char:EOLhyphen"/>gion and corruption ſpread it ſelf all over the Soul. And as 'tis impoſſible that a Judge who is brib'd, ſhou'd give a true or impartial judgment, for that he who ſuffers himſelf to be corrupted by any reward, is ſo blinded therewith, that he looks upon that only to be Juſt, and Honeſt, which is moſt ad<g ref="char:EOLhyphen"/>vantageous and uſefull to him<g ref="char:EOLhyphen"/>ſelf. How then is it poſſible, that in theſe times, when mens minds and manners are ſo ſtrangely corrupted; when we make it our buſineſs to defraud this man of his Inheritance, to lay ſnares for, and wheadle a<g ref="char:EOLhyphen"/>nother man to make us his Heir, to force unreaſonable gain out of every thing, and to
+<pb n="166" facs="tcp:56950:94"/>
+expoſe even our own ſelves to ſale; How is it poſſible, I ſay, that in this univerſal infection we ſhou'd find a man of ſound Judgment, and free from Paſ<g ref="char:EOLhyphen"/>ſion? who not being blinded or miſled by the inſatiable luſt of Riches, can diſtinguiſh what is truly great and worthy to be recorded to all Poſterity. Now then, ſince it is thus with us, were it not better we ſhould be ſubject to the Authority of another, then remain under our own juriſdiction; leaſt the inſatiable luſt of Avarice (like a Mad-Man, who having broak his Chains, flies upon all thoſe who are about him) ſhou'd ſet the whole World on Fire. In a word, I told him 'twas an exceſſive Luxury which had caus'd this Lethargy of mind, which (excepting ſome few)
+<pb n="167" facs="tcp:56950:94"/>
+was the fatall diſtemper of man kind; ſo that if there be any one who does now and then ſtudy, 'tis I fear, with as great faintneſs as thoſe do, who are lately recover'd of a Fit of Sick<g ref="char:EOLhyphen"/>neſs; and that for pleaſure, or vain glory, and not out of emu<g ref="char:EOLhyphen"/>lation, or any thirſt after ſolid and commendable profit. But enough of this, Now let us pro<g ref="char:EOLhyphen"/>ceed to the paſſions, whereof we have promis'd a diſtinct Treatiſe, for in my opinion they are none of the leaſt Ornaments of Speech, eſpecially ſuch as is Great and Lofty.</p>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
